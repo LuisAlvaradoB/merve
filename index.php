@@ -53,39 +53,51 @@
 							<p>These best rooms chosen by our customers</p>
 						</div>
 						<div class="row">
-							<div class="col-md-4">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/room-1.png" alt="img11"/>
+							<div class="col-md-3">
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img11"/>
 									<figcaption>
-										<h2>Super Deluxe</h2>
+										<h2>GREAT MOMENT</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
 											
 										</div>
 										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">View Details<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
 							</div>
-							<div class="col-md-4">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/room-2.png" alt="img11"/>
+							<div class="col-md-3">
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img11"/>
 									<figcaption>
-										<h2>Super Deluxe</h2>
+										<h2>BIG FAMILY</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
 											
 										</div>
 										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">View Details<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
 							</div>
-							<div class="col-md-4">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/room-3.png" alt="img11"/>
+							<div class="col-md-3">
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img11"/>
 									<figcaption>
-										<h2>Super Deluxe</h2>
+										<h2>BUSINESS & MEETINGS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
 											
 										</div>
 										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">View Details<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+									</figcaption>
+								</figure>
+							</div>
+							<div class="col-md-3">
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img11"/>
+									<figcaption>
+										<h2>WEDDINGS & EVENTS</h2>
+										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
+		
+										</div>
+										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
 							</div>
