@@ -16,11 +16,11 @@
 								<ul class="navbar-nav navbar-right">
 									<li class="active"><a href="index.php">HOME</a>
 									</li>
-									<li><a href="comunidad.php">COMUNIDAD</a>
+									<li><a href="#">COMUNIDAD</a>
 									</li>
-									<li><a href="programas.php">PROGRAMAS</a>
+									<li><a href="#">PROGRAMAS</a>
 									</li>
-									<li><a href="galeria.php">GALERIA</a>
+									<li><a href="#">GALERIA</a>
 									</li>
 									<li><a href="contacto.php">CONTACTO</a>
 									</li>
@@ -57,9 +57,9 @@
 									<figcaption>
 										<h2>GREAT MOMENT</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-											
+					
 										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
+
 										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
@@ -71,7 +71,7 @@
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
 											
 										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
+										
 										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
@@ -83,7 +83,7 @@
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
 											
 										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
+										
 										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
@@ -95,7 +95,7 @@
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
 		
 										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
+										
 										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
 									</figcaption>
 								</figure>
@@ -109,12 +109,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">About Mega Hotel</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliqua venandi mutat plerisque nostrum vos, geometria intellegimus percurri mediocritatem aeque suppetet explicatis, praeclaram ambigua cogitavisse vituperatoribus dicent signiferumque alios improbe, reliquisti rudem, consedit pendet circumcisaque amorem patria magnopere inmortalibus dolere. Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum crudelis exercitumque, nobis, videntur doloribus patre poetarum omnisque cognitionem primum, atomos certamen possent, adversantur probatum iudicante indicaverunt repugnantibus, operis aequi aequitate clarorum occultarum multa diis sine inter.</p>
+						<h2 class="mg-sec-left-title">Casa Molle</h2>
+						<p>
+							Un hotel inigualable, que ofrece a sus huéspedes una experiencia irrepetible. Más allá de la exclusividad y la hotelería de lujo, este hotel cinco estrellas se
+							caracteriza por ser único en el mundo. Casa Molle Villa & Golf se encuentra ubicado en una zona privilegiada, rodeada de naturaleza y paisajes inigualables, que brindan intimidad, tranquilidad, relajo, entretención y distracción con sus variadas actividades y programas. Casa Molle es considerado por sus huéspedes un paraíso en la Región de Coquimbo.
+						</p>
 					</div>
 					<div class="col-lg-5">
 						<div class="video-responsive">
-							<iframe src="https://player.vimeo.com/video/134008155" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							<iframe src="https://player.vimeo.com/video/241756126" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
