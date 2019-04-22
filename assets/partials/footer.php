@@ -71,7 +71,7 @@
 							</ul>
 						</div>
 						<div class="col-lg-6">
-							<p>&copy; 2019 <a href="http://www.cantothemes.com">Casa Molle Villa</a>. Todos los derehos reservados.
+							<p>&copy; 2019 <a href="http://www.cantothemes.com">Casa Molle Villa & Golf</a>. Todos los derehos reservados.
 							</p>
 						</div>
 					</div>
