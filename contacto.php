@@ -9,18 +9,18 @@
 		<header class="header transp sticky">
 			<nav class="navbar navbar-inverse">
 				<div class="container">
-					<div class="navbar navbar-expand-md justify-content-between"><a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo"></a>
+					<div class="navbar navbar-expand-md justify-content-between"><a class="navbar-brand" href="#"><img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
 						<div class="mg-navs">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 							<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
 								<ul class="navbar-nav navbar-right">
                   <li><a href="index.php">HOME</a>
 									</li>
-									<li><a href="comunidad.php">COMUNIDAD</a>
+									<li><a href="#">COMUNIDAD</a>
 									</li>
-									<li><a href="programas.php">PROGRAMAS</a>
+									<li><a href="#">PROGRAMAS</a>
 									</li>
-									<li><a href="galeria.php">GALERIA</a>
+									<li><a href="#">GALERIA</a>
 									</li>
 									<li class="active"><a href="contacto.php">CONTACTO</a>
 									</li>
@@ -29,7 +29,7 @@
 							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
 								<div class="mg-search-box">
 									<form>
-										<input class="form-control" type="text" name="s" placeholder="Type Keyword...">
+										<input class="form-control" type="text" name="s" placeholder="Escribe una palabra clave...">
 										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
 									</form>
 								</div>
@@ -43,7 +43,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Contact Us</h2>
+						<h2>Contacto</h2>
 						<p>Cogitavisse erant puerilis utrum efficiantur adhuc expeteretur.</p>
 					</div>
 				</div>
@@ -53,10 +53,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5">
-						<h2 class="mg-sec-left-title">Send an E-mail</h2>
+						<h2 class="mg-sec-left-title">Enviar un correo electrónico</h2>
 						<form class="clearfix">
 							<div class="mg-contact-form-input">
-								<label for="full-name">Full Name</label>
+								<label for="full-name">Nombre</label>
 								<input class="form-control" id="full-name" type="text">
 							</div>
 							<div class="mg-contact-form-input">
@@ -64,26 +64,28 @@
 								<input class="form-control" id="email" type="text">
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="subject">Subject</label>
+								<label for="subject">Asunto</label>
 								<input class="form-control" id="subject" type="text">
 							</div>
 							<div class="mg-contact-form-input">
-								<label for="subject">Message</label>
+								<label for="subject">Mensaje</label>
 								<textarea class="form-control" id="subject" rows="5"></textarea>
 							</div>
-							<input class="btn btn-dark-main pull-right" type="submit" value="Send">
+							<input class="btn btn-dark-main pull-right" type="submit" value="Enviar">
 						</form>
 					</div>
 					<div class="col-lg-7 mt-4 mt-lg-0">
-						<h2 class="mg-sec-left-title">Office Address</h2>
+						<h2 class="mg-sec-left-title">Dirección</h2>
 						<p>Consulatu quietem ipsas obruamus. Controversia unam queo firmam videri, afranius derigatur sine sentit inliberali beatam scribendi splendide. Recusabo maximisque ferentur arbitraretur vellem oritur cupiditatibus copulatas.</p>
 						<ul class="mg-contact-info">
-							<li><i class="fa fa-map-marker"></i> Level 13, 2 Elizabeth St, Melbourne, Victoria 3000 Australia</li>
-							<li><i class="fa fa-phone"></i> +000-123-456-789 (Sale)</li>
-							<li><i class="fa fa-envelope"></i> <a href="mailto:#">example@example.com</a>
+							<li><i class="fa fa-map-marker"></i> Fundo la Barrica s/n, El Molle, Vicuña, Región de Coquimbo</li>
+							<li><i class="fa fa-phone"></i> +569 44257739</li>
+							<li><i class="fa fa-envelope"></i> <a href="mailto:info@casamolle.cl">info@casamolle.cl</a>
 							</li>
 						</ul>
-						<div class="mg-map" id="mg-map"></div>
+						<div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27648.033069965604!2d-70.9265752!3d-29.9793112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96903b081ed59e51%3A0x4e32a142e7fd70d3!2sCasaMolle+Villa+%26+Golf!5e0!3m2!1ses!2scl!4v1555908510487!5m2!1ses!2scl" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
