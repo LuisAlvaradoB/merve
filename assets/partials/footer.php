@@ -71,7 +71,7 @@
 							</ul>
 						</div>
 						<div class="col-lg-6">
-							<p>&copy; 2015 <a href="http://www.cantothemes.com">CantoThemes</a>. All rights reserved.
+							<p>&copy; 2019 <a href="http://www.cantothemes.com">Casa Molle Villa</a>. Todos los derehos reservados.
 							</p>
 						</div>
 					</div>
