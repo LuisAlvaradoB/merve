@@ -49,12 +49,11 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mg-sec-title undefined">
-							<h2>Our Best Rooms</h2>
-							<p>These best rooms chosen by our customers</p>
+							<h2>VIVE NUESTRAS EXPERIENCIAS</h2>
 						</div>
 						<div class="row">
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img11"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img-greatMoment"/>
 									<figcaption>
 										<h2>GREAT MOMENT</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
@@ -66,7 +65,7 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img11"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img-bigFamily"/>
 									<figcaption>
 										<h2>BIG FAMILY</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
@@ -78,7 +77,7 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img11"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img-business"/>
 									<figcaption>
 										<h2>BUSINESS & MEETINGS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
@@ -90,7 +89,7 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img11"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img-weddings"/>
 									<figcaption>
 										<h2>WEDDINGS & EVENTS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
