@@ -1,4 +1,30 @@
 @charset "UTF-8";
+
+.txt-desc-testimonios {
+  color: white;
+}
+
+.main-img-great-moment {
+  background-image: url(../images/great_moment.png);
+}
+
+.main-img-contacto {
+  background-image: url(../images/villa_2.png);
+}
+
+.main-img-weedings-events {
+  background-image: url(../images/Wedding_&_events.png);
+}
+
+.main-img-business-meetings {
+  background-image: url(../images/Business_&_meetings.png);
+}
+
+.main-img-big-family {
+  background-image: url(../images/Big_Family.png);
+}
+
+
 body {
   font-family: "Open Sans";
   font-size: 14px;
@@ -1820,7 +1846,7 @@ ul.styled-list.list-star li:before {
 .mg-page-title {
   padding-top: 70px;
   padding-bottom: 50px;
-  background-image: url(../images/page-title.png);
+  /* background-image: url(../images/villa_2.png); */
   color: #fff;
   text-align: center;
 }
