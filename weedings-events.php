@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <title>Contacto | Casa Molle Villa & Golf </title>
+	
+	<title>Weedings & Events | Casa Molle Villa & Golf </title>
   <?php require 'assets/partials/header.php'?>
-  
+		
 	<body>
 		<div class="preloader"></div>
 		<header class="header transp sticky">
@@ -18,18 +18,28 @@
 									</li>
 									<li><a href="#">COMUNIDAD</a>
 									</li>
-									<li><a href="#">EXPERIENCIAS</a>
-									</li>
+                  <li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Great Moment</a>
+                      </li>
+                      <li><a href="#">Big Family</a>
+                      </li>
+                      <li><a href="#">Business & Meetings</a>
+                      </li>
+                      <li><a href="#">Weddings & Events</a>
+                      </li>
+                    </ul>
+                  </li>	
 									<li><a href="#">GALERIA</a>
 									</li>
-									<li class="active"><a href="contacto.php">CONTACTO</a>
+									<li><a href="contacto.php">CONTACTO</a>
 									</li>
 								</ul>
 							</div>
 							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
 								<div class="mg-search-box">
 									<form>
-										<input class="form-control" type="text" name="s" placeholder="Escribe una palabra clave...">
+										<input class="form-control" type="text" name="s" placeholder="Type Keyword...">
 										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
 									</form>
 								</div>
@@ -39,60 +49,40 @@
 				</div>
 			</nav>
 		</header>
-		<div class="mg-page-title main-img-contacto parallax">
+		<div class="mg-page-title main-img-weedings-events parallax">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Contacto</h2>
-						<p>Cogitavisse erant puerilis utrum efficiantur adhuc expeteretur.</p>
+						<h2>Weedings & Events</h2>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="mg-page">
+		<div class="mg-about-features">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-5">
-						<h2 class="mg-sec-left-title">Enviar un correo electrónico</h2>
-						<form class="clearfix">
-							<div class="mg-contact-form-input">
-								<label for="full-name">Nombre</label>
-								<input class="form-control" id="full-name" type="text">
-							</div>
-							<div class="mg-contact-form-input">
-								<label for="email">E-mail</label>
-								<input class="form-control" id="email" type="text">
-							</div>
-							<div class="mg-contact-form-input">
-								<label for="subject">Asunto</label>
-								<input class="form-control" id="subject" type="text">
-							</div>
-							<div class="mg-contact-form-input">
-								<label for="subject">Mensaje</label>
-								<textarea class="form-control" id="subject" rows="5"></textarea>
-							</div>
-							<input class="btn btn-dark-main pull-right" type="submit" value="Enviar">
-						</form>
+					<div class="col-lg-6">
+						<div class="mg-about-us-txt">
+							<!-- <div class="mg-sec-title undefined">
+								<h2>About Mega</h2>
+								<p>Lorem ipsum dolor sit amet consectetur</p>
+							</div> -->
+							<br><br>
+							<p>Casamolle Villa es el lugar soñado para celebrar matrimonios. Su entorno invita a conmemorar aniversarios o a disfrutar de cumpleaños. Nuestro equipo se encarga de organizar hasta el más mínimo detalle para que cada celebración sea memorable.
+							<br>Nuestra propuesta va mucho más allá de una fiesta; es toda una experiencia para compartir con los que más quieres.
+							Consulte por las cortesías asociadas a este programa.</p>
+						</div>
 					</div>
-					<div class="col-lg-7 mt-4 mt-lg-0">
-						<h2 class="mg-sec-left-title">Dirección</h2>
-						<p>Consulatu quietem ipsas obruamus. Controversia unam queo firmam videri, afranius derigatur sine sentit inliberali beatam scribendi splendide. Recusabo maximisque ferentur arbitraretur vellem oritur cupiditatibus copulatas.</p>
-						<ul class="mg-contact-info">
-							<li><i class="fa fa-map-marker"></i> Fundo la Barrica s/n, El Molle, Vicuña, Región de Coquimbo</li>
-							<li><i class="fa fa-phone"></i> +569 44257739</li>
-							<li><i class="fa fa-envelope"></i> <a href="mailto:info@casamolle.cl">info@casamolle.cl</a>
-							</li>
-						</ul>
-						<div>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27648.033069965604!2d-70.9265752!3d-29.9793112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96903b081ed59e51%3A0x4e32a142e7fd70d3!2sCasaMolle+Villa+%26+Golf!5e0!3m2!1ses!2scl!4v1555908510487!5m2!1ses!2scl" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div class="col-lg-6">
+						<div class="video-responsive">
+						<iframe width="500" height="281" src="https://www.youtube.com/embed/t3VsG0oH178" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-    
-    <?php require 'assets/partials/footer.php'?>
-
+		
+		<?php require 'assets/partials/footer.php'?>
 		<!--
 		All JavaScripts Codes Loaded
 		Ex: jquery, bootstrap, etc.

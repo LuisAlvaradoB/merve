@@ -18,7 +18,7 @@
 									</li>
 									<li><a href="#">COMUNIDAD</a>
 									</li>
-									<li><a href="#">PROGRAMAS</a>
+									<li><a href="#">EXPERIENCIAS</a>
 									</li>
 									<li><a href="#">GALERIA</a>
 									</li>
@@ -56,11 +56,10 @@
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img-greatMoment"/>
 									<figcaption>
 										<h2>GREAT MOMENT</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-					
+										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
 										</div>
 
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="great-moment.php">Descubre</a>
 									</figcaption>
 								</figure>
 							</div>
@@ -68,11 +67,10 @@
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img-bigFamily"/>
 									<figcaption>
 										<h2>BIG FAMILY</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-											
+										<div class="mg-room-rating"><i class="fa fa-star"> </i>
 										</div>
 										
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="big-family.php">Descubre</a>
 									</figcaption>
 								</figure>
 							</div>
@@ -80,11 +78,10 @@
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img-business"/>
 									<figcaption>
 										<h2>BUSINESS & MEETINGS</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-											
+										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
 										</div>
 										
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="business-meetings.php">Descubre</a>
 									</figcaption>
 								</figure>
 							</div>
@@ -92,11 +89,11 @@
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img-weddings"/>
 									<figcaption>
 										<h2>WEDDINGS & EVENTS</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
+										<div class="mg-room-rating"><i class="fa fa-star"> </i>
 		
 										</div>
 										
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">Ver detalles<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
+										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="weedings-events.php">Descubre</a>
 									</figcaption>
 								</figure>
 							</div>
@@ -128,7 +125,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mg-sec-title undefined">
-							<h2>Hotel facilties</h2>
+							<h2>Comodidades del Hotel</h2>
 							<p>These best rooms chosen by our customers</p>
 						</div>
 						<div class="row">
@@ -190,25 +187,151 @@
 		<section class="mg-testi-partners parallax">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
-						<h2 class="mg-sec-left-title">Testimonial</h2>
+					<div class="col-md-12">
+						<h2 class="mg-sec-left-title">Nuestros Testimonios</h2>
 						<div class="mg-testimonial-slider" id="mg-testimonial-slider">
 							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-								<footer>John Doe, Example Inc</footer>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/Testimonio-Fernando-Bustos.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Muchas gracias por todo! Lo pasamos increíble, todo precioso, relajado, la comida increíble! Se pasaron!</h4>
+											<footer>Fernando Bustos</footer>
+							    	</cite>
+									</div>
+							  </div>
 							</blockquote>
+
 							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-								<footer>John Doe, Example Inc</footer>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/testimonio-procharka-artigas.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Miles de felicitaciones a todo el equipo de CasaMolle, fue una experiencia inolvidable, nos encantó cada detalle. Ojalá volvamos muy pronto! Un abrazo grande! </h4>
+											<footer>Familia Procharka Artigas <br>Francisco, Rocío y Sofía.</footer>
+							    	</cite>
+									</div>
+							  </div>
 							</blockquote>
+
 							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-								<footer>John Doe, Example Inc</footer>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/testimonio-familia-soffia-barahona.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Muchas gracias por traernos a vivenciar esta tremenda experiencia, por todos sus detalles que sin dudas harán que nos vayamos recargados por un buen tiempo. Volveremos a disfrutar de este hermosos lugar. Mi abrazo y agradecimientos a cada uno de las personas que trabajan allá e hicieron que disfrutáramos cada segundo. Hasta pronto</h4>
+											<footer>Familia Soffia Barahona</footer>
+							    	</cite>
+									</div>
+							  </div>
 							</blockquote>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<h2 class="mg-sec-left-title">Our Partners</h2>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/testimonio-familia-reichhard.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Muchas gracias a CasaMolle por un feliz cumpleaños que celebré aquí con mi familia! Qué lugar tan precioso en su naturaleza, su ambiente tan cálido, acogedor y familiar. Una decoración exquisita, con tanto detalle especialmente las habitaciones, piscina, bar… El premio se lo llevan las mesas tan lindas con sus detalles al invitarnos a desayunos, almuerzos y cenas tan exquisitas. Y los maravillosos cactus y la cancha de golf que disfrutó Enrique. Pero todo esto sería nada, sin la calidez y amabilidad de su personal. Siempre sonrientes, amables, disponibles, Walter en su mesa de bar, Cuadrita con sus caballos y huertos, no quiero omitir a nadie, son todos! Muchas gracias a todos.</h4>
+											<footer>Familia Rusch Reichhard</footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/testimonio-felipe-lizama.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Una tremenda experiencia. Fui muy bien recibido y atendido por una comunidad que hace un tremendo equipo de trabajo, con infinita paciencia con sus huéspedes y con un chef formidable que con cariño y esmero nos deleitaba todo el día. Ni hablar del servicio de barra! Siempre nos sorprendían con los aperitivos. Excelente todo!!</h4>
+											<footer>Felipe Lizama</footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/testimonio-familia-meyohas.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Muchísimas gracias por el inigualable servicio y momentos que hemos vivido. Con alegría y muy descansados nos vamos pero volveremos sin duda.</h4>
+											<footer>Familia Meyohas</footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/testimonio-claudia-conserva.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Un hotel lleno de detalles, atención extraordinaria, comida excelente, naturaleza, belleza, recomendable a todos! Una maravilla y se nota el cariño con que lo hicieron sus dueños. Gran experiencia, no se la pierdan!</h4>
+											<footer>Claudia Conserva</footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/Testimonio-Fernando-Bustos.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">Vivir el momento ahora, eso es lo que nosotros como familia buscamos al hacer este retiro despedida de una de nuestras hijas y se logró con creces, un lugar diferente, servicio de excelencia y máxima tranquilidad felicidad inolvidable!!</h4>
+											<footer>Familia Toskana Montero </footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/Testimonio-Fernando-Bustos.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios">¡Realmente espectacular! El lugar, el paisaje, la tranquilidad, la privacidad y el personal que se esmera por hacernos sentir como en casa. Superó nuestras expectativas. En Chile no hay otro lugar como éste. Lamentablemente tuvimos que retornar a nuestro hogar pero con seguridad volveremos! </h4>
+											<footer>Familia Torres Cuevas </footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+							<blockquote>
+								<div class="media client-profile">
+									<div class="col-md-2">
+										<img class="mr-3" src="assets/images/Testimonio-Fernando-Bustos.png" alt="">
+									</div>
+									<div class="col-md-10">
+										<cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+											<h4 class="txt-desc-testimonios"> Una experiencia maravillosa, gracias por la atención, cuidado y detalles. Felicitaciones por el cariño y entusiasmo que han puesto en este proyecto, sin duda requiere mucho de que hablar. Saludos. </h4>
+											<footer>Francisco Traviesa </footer>
+							    	</cite>
+									</div>
+							  </div>
+							</blockquote>
+
+					<!-- <div class="col-md-6">
+						<h2 class="mg-sec-left-title">Nuestros Partners</h2>
 						<div class="mg-part-logos" id="mg-part-logos">
 							<li><img src="assets/images/part-logo-1.png" alt="Partner Logo"/></li>
 							<li><img src="assets/images/part-logo-2.png" alt="Partner Logo"/></li>
@@ -217,7 +340,7 @@
 							<li><img src="assets/images/part-logo-2.png" alt="Partner Logo"/></li>
 							<li><img src="assets/images/part-logo-3.png" alt="Partner Logo"/></li>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
@@ -225,7 +348,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5">
-						<h2 class="mg-sec-left-title">Recent News</h2>
+						<h2 class="mg-sec-left-title">Noticias Recientes</h2>
 						<ul class="mg-recnt-posts">
 							<li>
 								<div class="mg-recnt-post">
@@ -257,7 +380,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">Our Gallery</h2>
+						<h2 class="mg-sec-left-title">Nuestra Galería</h2>
 						<div class="mg-gallery-container">
 							<ul class="mg-gallery" id="mg-gallery">
 								<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
