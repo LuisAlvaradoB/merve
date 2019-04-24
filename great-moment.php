@@ -18,7 +18,7 @@
 									</li>
 									<li><a href="#">COMUNIDAD</a>
 									</li>
-                  <li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experiencias</a>
+                  <li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="#">Great Moment</a>
                       </li>
