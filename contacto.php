@@ -30,7 +30,7 @@
                       </li>
                     </ul>
                   </li>	
-									<li><a href="#">GALERIA</a>
+									<li><a href="galeria.php">GALERIA</a>
 									</li>
 									<li class="active"><a href="contacto.php">CONTACTO</a>
 									</li>
