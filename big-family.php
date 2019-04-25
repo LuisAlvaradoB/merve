@@ -20,13 +20,13 @@
 									</li>
                   <li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
-											<li><a href="#">Great Moment</a>
+											<li><a href="great-moment.php">Great Moment</a>
                       </li>
-                      <li><a href="#">Big Family</a>
+                      <li><a href="big-family.php">Big Family</a>
                       </li>
-                      <li><a href="#">Business & Meetings</a>
+                      <li><a href="business-meetings.php">Business & Meetings</a>
                       </li>
-                      <li><a href="#">Weddings & Events</a>
+                      <li><a href="weddings-events.php">Weddings & Events</a>
                       </li>
                     </ul>
                   </li>	

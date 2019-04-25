@@ -14,7 +14,7 @@
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 							<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
 								<ul class="navbar-nav navbar-right">
-								<li class="active"><a href="index.php">HOME</a>
+									<li class="active"><a href="index.php">HOME</a>
 									</li>
 									<li><a href="#">COMUNIDAD</a>
 									</li>
@@ -26,7 +26,7 @@
                       </li>
                       <li><a href="business-meetings.php">Business & Meetings</a>
                       </li>
-                      <li><a href="weedings-events.php">Weddings & Events</a>
+                      <li><a href="weddings-events.php">Weddings & Events</a>
                       </li>
                     </ul>
                   </li>	
