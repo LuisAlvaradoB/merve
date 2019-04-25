@@ -38,6 +38,12 @@ align-items: center;
   max-width: 50%;
 }
 
+#container-galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 body {

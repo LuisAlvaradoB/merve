@@ -203,6 +203,36 @@
 						</p>
 					</div>
 				</div>
+				<hr>
+				<section class="mg-news-gallery">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-lg-7">
+								<h2 class="mg-sec-left-title">Nuestra Galería</h2>
+								<div class="mg-gallery-container">
+									<ul class="mg-gallery" id="mg-gallery">
+										<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
+									</ul>
+									<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
+										<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
+									</ul>
+								</div>
+							</div> <!--.col-md-7 -->
+							<div class="col-md-3"></div>
+						</div> <!-- row -->
+					</div> <!-- container -->
+				</section> 
 
 			</div>
 		</div>
