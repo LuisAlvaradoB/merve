@@ -24,6 +24,21 @@
   background-image: url(../images/Big_Family.png);
 }
 
+.img-testimonio {
+align-items: center;
+}
+
+#container-img-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-img-profile>img {
+  max-width: 50%;
+}
+
+
 
 body {
   font-family: "Open Sans";
