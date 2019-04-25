@@ -24,6 +24,10 @@
   background-image: url(../images/Big_Family.png);
 }
 
+.img-testimonio {
+align-items: center;
+}
+
 
 body {
   font-family: "Open Sans";
