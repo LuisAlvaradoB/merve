@@ -9,7 +9,7 @@
 		<header class="header transp sticky">
 			<nav class="navbar navbar-inverse">
 				<div class="container">
-					<div class="navbar navbar-expand-md justify-content-between"><a class="navbar-brand" href="#"><img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
+					<div class="navbar navbar-expand-md justify-content-between"><a class="navbar-brand" href="index.php"><img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
 						<div class="mg-navs">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 							<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
