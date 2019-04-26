@@ -54,7 +54,7 @@
 		<?php require 'assets/partials/reserva-section.php'?>
 
 		
-		<section class="mg-best-rooms">
+		<section id="main-section-experiencias" class="mg-best-rooms">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
