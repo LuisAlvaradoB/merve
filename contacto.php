@@ -14,22 +14,22 @@
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 							<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
 								<ul class="navbar-nav navbar-right">
-                	<li><a href="index.php">HOME</a>
+                				<li><a href="index.php">HOME</a>
 									</li>
 									<li><a href="#">COMUNIDAD</a>
 									</li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+                  			<li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="great-moment.php">Great Moment</a>
-                      </li>
-                      <li><a href="big-family.php">Big Family</a>
-                      </li>
-                      <li><a href="business-meetings.php">Business & Meetings</a>
-                      </li>
-                      <li><a href="weddings-events.php">Weddings & Events</a>
-                      </li>
-                    </ul>
-                  </li>	
+                      				</li>
+                      				<li><a href="big-family.php">Big Family</a>
+                      				</li>
+                      				<li><a href="business-meetings.php">Business & Meetings</a>
+                      				</li>
+                      				<li><a href="weddings-events.php">Weddings & Events</a>
+                      				</li>
+                    				</ul>
+                  			</li>	
 									<li><a href="galeria.php">GALERIA</a>
 									</li>
 									<li class="active"><a href="contacto.php">CONTACTO</a>
