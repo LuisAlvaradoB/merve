@@ -18,9 +18,19 @@
 									</li>
 									<li><a href="#">COMUNIDAD</a>
 									</li>
-									<li><a href="#">EXPERIENCIAS</a>
-									</li>
-									<li><a href="#">GALERIA</a>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+										<ul class="dropdown-menu">
+											<li><a href="great-moment.php">Great Moment</a>
+                      </li>
+                      <li><a href="big-family.php">Big Family</a>
+                      </li>
+                      <li><a href="business-meetings.php">Business & Meetings</a>
+                      </li>
+                      <li><a href="weddings-events.php">Weddings & Events</a>
+                      </li>
+                    </ul>
+                  </li>	
+									<li><a href="galeria.php">GALERIA</a>
 									</li>
 									<li><a href="contacto.php">CONTACTO</a>
 									</li>
@@ -44,7 +54,7 @@
 		<?php require 'assets/partials/reserva-section.php'?>
 
 		
-		<section class="mg-best-rooms">
+		<section id="main-section-experiencias" class="mg-best-rooms">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">

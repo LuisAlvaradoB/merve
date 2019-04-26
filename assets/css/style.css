@@ -24,6 +24,10 @@
   background-image: url(../images/Big_Family.png);
 }
 
+.main-img-galeria-page {
+  background-image: url(../images/Galeria_header.png);
+}
+
 .img-testimonio {
 align-items: center;
 }
@@ -36,6 +40,12 @@ align-items: center;
 
 #container-img-profile>img {
   max-width: 50%;
+}
+
+#container-galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

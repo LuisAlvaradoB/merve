@@ -52,11 +52,11 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="mg-footer-nav">
-								<li><a href="#">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><a href="#">Comunidad</a></li>
-								<li><a href="#">Programas</a></li>
-								<li><a href="#">Galería</a></li>
-								<li><a href="#">Contacto</a></li>
+								<li><a href="index.php#main-section-experiencias">Experiencias</a></li>
+								<li><a href="galeria.php">Galería</a></li>
+								<li><a href="contacto.php">Contacto</a></li>
 							</ul>
 						</div>
 						<div class="col-lg-6">
