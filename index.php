@@ -53,7 +53,6 @@
 		<?php require 'assets/partials/carousel-slide.php'?>
 		<?php require 'assets/partials/reserva-section.php'?>
 
-		
 		<section id="main-section-experiencias" class="mg-best-rooms">
 			<div class="container">
 				<div class="row">
@@ -64,7 +63,7 @@
 						<div class="row">
 							<div class="col-md-3">
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img-greatMoment"/>
-									<figcaption>
+									<figcaption style="top:200px">
 										<h2>GREAT MOMENT</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
 										</div>
@@ -75,7 +74,7 @@
 							</div>
 							<div class="col-md-3">
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img-bigFamily"/>
-									<figcaption>
+									<figcaption style="top:200px">
 										<h2>BIG FAMILY</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i>
 										</div>
@@ -86,7 +85,7 @@
 							</div>
 							<div class="col-md-3">
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img-business"/>
-									<figcaption>
+									<figcaption style="top:200px">
 										<h2>BUSINESS & MEETINGS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
 										</div>
@@ -97,7 +96,7 @@
 							</div>
 							<div class="col-md-3">
 								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img-weddings"/>
-									<figcaption>
+									<figcaption style="top:200px">
 										<h2>WEDDINGS & EVENTS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i>
 		
@@ -112,6 +111,10 @@
 				</div>
 			</div>
 		</section>
+		
+
+
+
 		<section class="mg-about parallax">
 			<div class="container">
 				<div class="row">
