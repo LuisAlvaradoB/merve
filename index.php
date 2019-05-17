@@ -16,34 +16,27 @@
 								<ul class="navbar-nav navbar-right">
 									<li class="active"><a href="index.php">HOME</a>
 									</li>
-									<li><a href="#">COMUNIDAD</a>
-									</li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+                  			<li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="great-moment.php">Great Moment</a>
-                      </li>
-                      <li><a href="big-family.php">Big Family</a>
-                      </li>
-                      <li><a href="business-meetings.php">Business & Meetings</a>
-                      </li>
-                      <li><a href="weddings-events.php">Weddings & Events</a>
-                      </li>
-                    </ul>
-                  </li>	
+                      				</li>
+                      				<li><a href="big-family.php">Big Family</a>
+                      				</li>
+                      				<li><a href="business-meetings.php">Business & Meetings</a>
+                      				</li>
+                      				<li><a href="weddings-events.php">Weddings & Events</a>
+                      				</li>
+                    				</ul>
+                  			</li>	
 									<li><a href="galeria.php">GALERIA</a>
+									</li>
+									<li><a href="#testimonial-nav">COMUNIDAD</a>
 									</li>
 									<li><a href="contacto.php">CONTACTO</a>
 									</li>
 								</ul>
 							</div>
-							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
-								<div class="mg-search-box">
-									<form>
-										<input class="form-control" type="text" name="s" placeholder="Escribe una palabra clave...">
-										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -62,7 +55,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img-greatMoment"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment"/>
 									<figcaption style="top:200px">
 										<h2>GREAT MOMENT</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
@@ -73,7 +66,7 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img-bigFamily"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily"/>
 									<figcaption style="top:200px">
 										<h2>BIG FAMILY</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -84,7 +77,7 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img-business"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business"/>
 									<figcaption style="top:200px">
 										<h2>BUSINESS & MEETINGS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
@@ -95,7 +88,7 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img-weddings"/>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings"/>
 									<figcaption style="top:200px">
 										<h2>WEDDINGS & EVENTS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -113,26 +106,31 @@
 		</section>
 		
 
-
-
-		<section class="mg-about parallax">
+		<section class="mg-book-now">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">Casa Molle</h2>
-						<p>
-							Un hotel inigualable, que ofrece a sus huéspedes una experiencia irrepetible. Más allá de la exclusividad y la hotelería de lujo, este hotel cinco estrellas se
-							caracteriza por ser único en el mundo. Casa Molle Villa & Golf se encuentra ubicado en una zona privilegiada, rodeada de naturaleza y paisajes inigualables, que brindan intimidad, tranquilidad, relajo, entretención y distracción con sus variadas actividades y programas. Casa Molle es considerado por sus huéspedes un paraíso en la Región de Coquimbo.
-						</p>
+					<div class="col-lg-4">
+						<h3 style="color: #e7b315">Conecta con Casa Molle</h3>
 					</div>
-					<div class="col-lg-5">
-						<div class="video-responsive">
-							<iframe src="https://player.vimeo.com/video/241756126" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						</div>
+					<div class="col-lg-6">
+						<a href="https://www.instagram.com/casamollevillaandgolf/" target="_blanck"><i class=" fab fa-instagram fa-3x" style="color:white; padding-right: 30px;"></i></a>
+						<a href="https://www.facebook.com/CasaMolleVilla/" target="_blank"><i class=" fab fa-facebook fa-3x" style="color:white; padding-right: 30px;"></i></a>
+						<a href="https://twitter.com/casamollevilla" target="_blanck"><i class=" fab fa-twitter fa-3x" style="color:white; padding-right: 30px;"></i></a>
+						<a href="https://cl.linkedin.com/company/casamollevilla" target="_blanck"><i class=" fab fa-linkedin fa-3x" style="color:white; padding-right: 30px;"></i>
+						<a href="https://www.tripadvisor.cl/Hotel_Review-g970257-d15289729-Reviews-Casamolle_Villa_Golf-Vicuna_Coquimbo_Region.html" target="_blanck"><i class=" fab fa-tripadvisor fa-3x" style="color:white; padding-right: 30px;"></i></a>
 					</div>
+					<div class="col-lg-2">
+						<a href="https://casamolle.paxer.com/reservacion" target="_blank" class="btn btn-main ">Descargar Brochure</a>
+					</div> <!-- col-lg-9 -->
 				</div>
 			</div>
 		</section>
+		<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/b94c1f1862f9503aa09650224b4852ee.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+		
+
+
+
 		<section class="mg-features">
 			<div class="container">
 				<div class="row">
