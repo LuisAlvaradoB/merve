@@ -87,8 +87,8 @@
 			<section class="mg-news-gallery">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-lg-7">
+							<div class="col-md-2"></div>
+							<div class="col-lg-8">
 								<!-- <h2 class="mg-sec-left-title">Nuestra Galería</h2> -->
 								<div class="mg-gallery-container">
 									<ul class="mg-gallery" id="mg-gallery">
