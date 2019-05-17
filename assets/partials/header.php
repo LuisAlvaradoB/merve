@@ -21,7 +21,7 @@
 		</style>
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic">
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/libs/fontawesome/css/fontawesome-all.min.css">
 		<link rel="stylesheet" href="assets/css/owl.carousel.css">

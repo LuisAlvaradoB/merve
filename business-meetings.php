@@ -90,92 +90,38 @@
 					</div>
 				</div>
 			</div>
+			<section class="mg-news-gallery">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-lg-7">
+								<!-- <h2 class="mg-sec-left-title">Nuestra Galería</h2> -->
+								<div class="mg-gallery-container">
+									<ul class="mg-gallery" id="mg-gallery">
+										<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
+									</ul>
+									<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
+										<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
+										<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
+									</ul>
+								</div>
+							</div> <!--.col-md-7 -->
+							<div class="col-md-3"></div>
+						</div> <!-- row -->
+					</div> <!-- container -->
+				</section> 
 		</div>
-		<div class="mg-about-testimonial parallax">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mg-sec-title undefined">
-							<h2>Testimonials</h2>
-							<p>Here is some valuable word from our clients</p>
-						</div>
-						<div class="mg-testimonial-slider" id="mg-testimonial-slider">
-							<blockquote>
-								<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti. Coercendi fabulas sequatur dolorem nominant, faciendum dicitis perpauca intervenire calere.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-							<blockquote>
-								<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti. Coercendi fabulas sequatur dolorem nominant, faciendum dicitis perpauca intervenire calere.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-							<blockquote>
-								<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti. Coercendi fabulas sequatur dolorem nominant, faciendum dicitis perpauca intervenire calere.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="mg-team">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mg-sec-title undefined">
-							<h2>Our Stuff</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="mg-team-member">
-							<figure><img class="img-fluid" src="assets/images/member1.png" alt=""/></figure>
-							<div class="mg-team-member-overlayer"></div>
-							<div class="mg-team-info">
-								<h3>Joseph Gonzales</h3><strong>Manager</strong>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Potitur confectum existimant cognitio aristotele seditione.</p>
-								<ul class="mg-team-member-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="mg-team-member">
-							<figure><img class="img-fluid" src="assets/images/member2.png" alt=""/></figure>
-							<div class="mg-team-member-overlayer"></div>
-							<div class="mg-team-info">
-								<h3>Joseph Gonzales</h3><strong>Manager</strong>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Potitur confectum existimant cognitio aristotele seditione.</p>
-								<ul class="mg-team-member-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="mg-team-member">
-							<figure><img class="img-fluid" src="assets/images/member3.png" alt=""/></figure>
-							<div class="mg-team-member-overlayer"></div>
-							<div class="mg-team-info">
-								<h3>Joseph Gonzales</h3><strong>Manager</strong>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Potitur confectum existimant cognitio aristotele seditione.</p>
-								<ul class="mg-team-member-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
+		
 		<?php require 'assets/partials/footer.php'?>
 		<!--
 		All JavaScripts Codes Loaded

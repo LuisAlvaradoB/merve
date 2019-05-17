@@ -54,136 +54,114 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p>Pensado para los que quieran disfrutar junto a los suyos, compartiendo la villa con otros huéspedes. <br>Estadía en CasaMolle Villa & Golf.Check In: <br>Desde las 15.00 hrs – check out: 11.00 hrs.<br>Acceso a todas las áreas de la villa y sus actividades:</p>
+						<p>Pensado para los que quieran disfrutar junto a los suyos, compartiendo la villa con otros huéspedes. <br><strong>Estadía en CasaMolle Villa & Golf.Check In:</strong><br>Desde las 15.00 hrs – check out: 11.00 hrs.<br><strong>Acceso a todas las áreas de la villa y sus actividades:</strong></p>
 						<hr>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Cancha de golf de 9 hoyos</h3>
+							<div class="mg-feature-icon-title"><i class="fp-ht-golf "></i>
+								<h3 style="font-size:12px;">Cancha golf de 9 hoyos</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Piscina al aire libre</h3>
+							<div class="mg-feature-icon-title"><i class="fp-ht-swimmingpool"></i>
+								<h3 style="font-size:12px">Piscina aire libre</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Hot Tub & Sauna</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-hot-tub"></i> 
+								<h3 style="font-size:12px">Hot Tub & Sauna</h3>
 							</div>
 						</div>
 					</div>
 
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Área de bowls</h3>
+							<div class="mg-feature-icon-title"><i class="fp-ht-bowling"></i>
+								<h3 style="font-size:12px">Área de bowls</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Área de babyfootball</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-futbol"></i>
+								<h3 style="font-size:12px">Área de babyfootball</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Lagunas</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-tint"></i>
+								<h3 style="font-size:12px">Lagunas</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Paseos en Kayak</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-arrows-alt-v"></i>
+								<h3 style="font-size:12px">Paseos en Kayak</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Huerta orgánica</h3>
+							<div class="mg-feature-icon-title"><i class="fa fa-leaf"></i>
+								<h3 style="font-size:12px">Huerta orgánica</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Cabalgatas guiadas</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-horse"></i>
+								<h3 style="font-size:12px">Cabalgatas guiadas</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Trekking</h3>
+							<div class="mg-feature-icon-title"><i class="fa fa-walking"></i>
+								<h3 style="font-size:12px">Trekking</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Circuito deportivo al aire libre</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-table-tennis"></i>
+								<h3 style="font-size:12px">Circuito deportivo al aire libre</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Anfiteatro</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-theater-masks"></i>
+								<h3 style="font-size:12px">Anfiteatro</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
-						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Todas las comidas diarias: Desayuno, Almuerzos, Snacks y Cena</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Bar abierto. Incluye: Selección de vinos chilenos, licores, aguas, bebidas y jugos</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Conexión Wifi ilimitado</h3>
-							</div>
-						</div>
-					</div>
-				</div>
+				</div> <!--cierre primera fila-->
 
 				<div class="row">
 					<div class="col-md-12">
 						<hr>
 						<p>
-							Cargos adicionales huéspedes de la villa:
+						<strong>Cargos adicionales huéspedes de la villa:</strong>
 							<li>Carta seleccionada de licores ultra Premium.</li>
 							<li>Masajes.</li>
 							<li>Transporte.</li>
@@ -192,6 +170,7 @@
 							<li>De 3 a 13 años pagan el 50% del valor, compartiendo habitación con los padres.</li>
 							<li>Se requiere un depósito de un 30% en el momento de hacer la reserva.</li>
 							<li>El 70% restante, debe ser pagado 7 días antes de su llegada a la villa.</li>
+						
 						</p>
 					</div>
 				</div>
