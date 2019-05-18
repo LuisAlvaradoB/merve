@@ -154,12 +154,10 @@
 							</div>
 						</div>
 					</div>
-
 				</div> <!--cierre primera fila-->
-
+				<hr>
 				<div class="row">
-					<div class="col-md-12">
-						<hr>
+					<div class="col-md-6">
 						<p>
 						<strong>Cargos adicionales huéspedes de la villa:</strong>
 							<li>Carta seleccionada de licores ultra Premium.</li>
@@ -173,37 +171,63 @@
 						
 						</p>
 					</div>
+					<div class="col-md-6">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="assets/images/gallery-01.png" alt="First slide">
+								</div>
+										
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<hr>
-				<section class="mg-news-gallery">
+				<!-- <section class="mg-news-gallery">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-2"></div>
-							<div class="col-lg-8">
-								<!-- <h2 class="mg-sec-left-title">Nuestra Galería</h2> -->
-								<div class="mg-gallery-container">
-									<ul class="mg-gallery" id="mg-gallery">
-										<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
-									</ul>
-									<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
-										<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
-									</ul>
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-6">
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img class="d-block w-100" src="assets/images/gallery-01.png" alt="First slide">
+										</div>
+										
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
 								</div>
-							</div> <!--.col-md-7 -->
-							<div class="col-md-3"></div>
-						</div> <!-- row -->
-					</div> <!-- container -->
-				</section> 
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+					</div> 
+				</section>  -->
 
 			</div>
 		</div>
