@@ -174,13 +174,51 @@
 					<div class="col-md-6">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block w-100" src="assets/images/gallery-01.png" alt="First slide">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (1).png" alt="img1">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (2).png" alt="img2">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (3).png" alt="img3">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (4).png" alt="img4">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (5).png" alt="img5">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (6).png" alt="img6">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (7).png" alt="img7">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (8).png" alt="img8">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (9).png" alt="img9">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (10).png" alt="img10">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (11).png" alt="img11">
 								</div>
 										
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
