@@ -91,34 +91,70 @@
 				</div>
 			</div>
 			<section class="mg-news-gallery">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-2"></div>
-							<div class="col-lg-8">
-								<!-- <h2 class="mg-sec-left-title">Nuestra Galería</h2> -->
-								<div class="mg-gallery-container">
-									<ul class="mg-gallery" id="mg-gallery">
-										<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
-									</ul>
-									<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
-										<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
-									</ul>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (1).png" alt="img1">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (2).png" alt="img2">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (3).png" alt="img3">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (4).png" alt="img4">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (5).png" alt="img5">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (6).png" alt="img6">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (7).png" alt="img7">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (8).png" alt="img8">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (9).png" alt="img9">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/bussines-meetings/Business_Meetings (10).png" alt="img10">
+									</div>
+
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
 								</div>
-							</div> <!--.col-md-7 -->
-							<div class="col-md-3"></div>
-						</div> <!-- row -->
-					</div> <!-- container -->
-				</section> 
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>	
+			</section> 
 		</div>
 		
 		

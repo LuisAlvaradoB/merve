@@ -12,7 +12,7 @@
 									
 									<div class="col-md-12 col-lg-3"></div>
 									<div class="col-md-12 col-lg-3">
-										<a href="https://casamolle.paxer.com/reservacion" target="_blank" class="btn btn-main btn-block">Check Now</a>
+										<a href="https://casamolle.paxer.com/reservacion" target="_blank" class="btn btn-main btn-block">Reserva Ahora</a>
 									</div>
 								</div>
 							</form>

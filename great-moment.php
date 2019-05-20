@@ -233,7 +233,7 @@
 						</div>
 					</div>
 				</div>
-				<hr>
+				
 				<!-- <section class="mg-news-gallery">
 					<div class="container">
 						<div class="row">
