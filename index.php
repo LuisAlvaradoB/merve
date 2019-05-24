@@ -9,10 +9,19 @@
 	<header class="header transp sticky">
 		<nav class="navbar navbar-inverse">
 			<div class="container">
-				<div class="navbar navbar-expand-md justify-content-center"><a class="navbar-brand" href="index.php">
-					<i class="fas fa-grip-lines"></i>
-					<img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
-					<i class="far fa-calendar-alt"></i>
+				<div class="navbar navbar-expand-md justify-content-center">
+					<div class="row">
+						<div class="col-md-2">
+							<i class="fas fa-grip-lines"></i>
+						</div>
+						<div class="col-md-8">
+							<a class="navbar-brand" href="index.php"><img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
+						</div>
+						<div class="col-md-2">
+							<i class="far fa-calendar-alt"></i>
+						</div>
+					</div>
+					
 					<div class="mg-navs">
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 						<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
