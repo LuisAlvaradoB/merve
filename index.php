@@ -10,7 +10,7 @@
 		<nav class="navbar navbar-inverse">
 			<div class="container">
 				<div class="navbar navbar-expand-md justify-content-center">
-					<div class="row">
+					<div class="row" style="width: 100%">
 						<div class="col-md-2">
 							<i class="fas fa-grip-lines"></i>
 						</div>
