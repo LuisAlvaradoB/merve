@@ -51,7 +51,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mg-sec-title undefined">
-							<h2>VIVE NUESTRAS EXPERIENCIAS</h2>
+							<h2>EXPLORA CASA MOLLE</h2>
 						</div>
 						<div class="row">
 							<div class="col-md-3">
