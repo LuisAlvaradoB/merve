@@ -16,34 +16,27 @@
 								<ul class="navbar-nav navbar-right">
 									<li class="active"><a href="index.php">HOME</a>
 									</li>
-									<li><a href="#">COMUNIDAD</a>
-									</li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+                  			<li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="great-moment.php">Great Moment</a>
-                      </li>
-                      <li><a href="big-family.php">Big Family</a>
-                      </li>
-                      <li><a href="business-meetings.php">Business & Meetings</a>
-                      </li>
-                      <li><a href="weddings-events.php">Weddings & Events</a>
-                      </li>
-                    </ul>
-                  </li>	
+                      				</li>
+                      				<li><a href="big-family.php">Big Family</a>
+                      				</li>
+                      				<li><a href="business-meetings.php">Business & Meetings</a>
+                      				</li>
+                      				<li><a href="weddings-events.php">Weddings & Events</a>
+                      				</li>
+                    				</ul>
+                  			</li>	
 									<li><a href="galeria.php">GALERIA</a>
+									</li>
+									<li><a href="#testimonial-nav">COMUNIDAD</a>
 									</li>
 									<li><a href="contacto.php">CONTACTO</a>
 									</li>
 								</ul>
 							</div>
-							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
-								<div class="mg-search-box">
-									<form>
-										<input class="form-control" type="text" name="s" placeholder="Escribe una palabra clave...">
-										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -53,18 +46,17 @@
 		<?php require 'assets/partials/carousel-slide.php'?>
 		<?php require 'assets/partials/reserva-section.php'?>
 
-		
 		<section id="main-section-experiencias" class="mg-best-rooms">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mg-sec-title undefined">
-							<h2>VIVE NUESTRAS EXPERIENCIAS</h2>
+							<h2>EXPLORA CASA MOLLE</h2>
 						</div>
 						<div class="row">
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-1.png" alt="img-greatMoment"/>
-									<figcaption>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment"/>
+									<figcaption style="top:200px">
 										<h2>GREAT MOMENT</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
 										</div>
@@ -74,8 +66,8 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-4.png" alt="img-bigFamily"/>
-									<figcaption>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily"/>
+									<figcaption style="top:200px">
 										<h2>BIG FAMILY</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i>
 										</div>
@@ -85,8 +77,8 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-2.png" alt="img-business"/>
-									<figcaption>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business"/>
+									<figcaption style="top:200px">
 										<h2>BUSINESS & MEETINGS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i> 
 										</div>
@@ -96,8 +88,8 @@
 								</figure>
 							</div>
 							<div class="col-md-3">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/service-3.png" alt="img-weddings"/>
-									<figcaption>
+								<figure class="mg-room "><img class="img-fluid" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings"/>
+									<figcaption style="top:200px">
 										<h2>WEDDINGS & EVENTS</h2>
 										<div class="mg-room-rating"><i class="fa fa-star"> </i>
 		
@@ -112,24 +104,39 @@
 				</div>
 			</div>
 		</section>
-		<section class="mg-about parallax">
+		
+
+		<section class="mg-book-now">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">Casa Molle</h2>
-						<p>
-							Un hotel inigualable, que ofrece a sus huéspedes una experiencia irrepetible. Más allá de la exclusividad y la hotelería de lujo, este hotel cinco estrellas se
-							caracteriza por ser único en el mundo. Casa Molle Villa & Golf se encuentra ubicado en una zona privilegiada, rodeada de naturaleza y paisajes inigualables, que brindan intimidad, tranquilidad, relajo, entretención y distracción con sus variadas actividades y programas. Casa Molle es considerado por sus huéspedes un paraíso en la Región de Coquimbo.
-						</p>
+					<div class="col-lg-4 col-xs-12">
+						<div class="row">
+							<h3 style="color: #e7b315">Conecta con CasaMolle</h3>
+						</div>	
 					</div>
-					<div class="col-lg-5">
-						<div class="video-responsive">
-							<iframe src="https://player.vimeo.com/video/241756126" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div class="col-lg-6 col-xs-12">
+						<div class="row">
+							<a href="https://www.instagram.com/casamollevillaandgolf/" target="_blanck"><i class=" fab fa-instagram fa-3x" style="color:white; padding-right: 30px;"></i></a>
+							<a href="https://www.facebook.com/CasaMolleVilla/" target="_blank"><i class=" fab fa-facebook fa-3x" style="color:white; padding-right: 30px;"></i></a>
+							<a href="https://twitter.com/casamollevilla" target="_blanck"><i class=" fab fa-twitter fa-3x" style="color:white; padding-right: 30px;"></i></a>
+							<a href="https://cl.linkedin.com/company/casamollevilla" target="_blanck"><i class=" fab fa-linkedin fa-3x" style="color:white; padding-right: 30px;"></i>
+							<a href="https://www.tripadvisor.cl/Hotel_Review-g970257-d15289729-Reviews-Casamolle_Villa_Golf-Vicuna_Coquimbo_Region.html" target="_blanck"><i class=" fab fa-tripadvisor fa-3x" style="color:white; padding-right: 30px;"></i></a>
 						</div>
 					</div>
+					<div class="col-lg-2 col-xs-12">
+						<div class="row">
+							<a href="https://casamolle.paxer.com/reservacion" target="_blank" class="btn btn-main btn-block ">Descargar Brochure</a>
+						</div>
+					</div> <!-- col-lg-9 -->
 				</div>
 			</div>
 		</section>
+		<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/b94c1f1862f9503aa09650224b4852ee.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+		
+
+
+
 		<section class="mg-features">
 			<div class="container">
 				<div class="row">
@@ -195,158 +202,7 @@
 			</div>
 		</section>
 
-		<section class="mg-testi-partners parallax">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="mg-sec-left-title">Nuestros Testimonios</h2>
-						<div class="mg-testimonial-slider" id="mg-testimonial-slider">
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3 center-block"src="assets/images/Testimonio-Fernando-Bustos.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Muchas gracias por todo! Lo pasamos increíble, todo precioso, relajado, la comida increíble! Se pasaron!</h4>
-								<footer>Fernando Bustos</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3 center-block"src="assets/images/testimonio-procharka-artigas.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Miles de felicitaciones a todo el equipo de CasaMolle, fue una experiencia inolvidable, nos encantó cada detalle. Ojalá volvamos muy pronto! Un abrazo grande! </h4>
-								<footer>Familia Procharka Artigas <br>Francisco, Rocío y Sofía.</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-familia-soffia-barahona.png" alt="">	
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Muchas gracias por traernos a vivenciar esta tremenda experiencia, por todos sus detalles que sin dudas harán que nos vayamos recargados por un buen tiempo. Volveremos a disfrutar de este hermosos lugar. Mi abrazo y agradecimientos a cada uno de las personas que trabajan allá e hicieron que disfrutáramos cada segundo. Hasta pronto</h4>
-								<footer>Familia Soffia Barahona</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-familia-reichhard.png" alt="">	
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Muchas gracias a CasaMolle por un feliz cumpleaños que celebré aquí con mi familia! Qué lugar tan precioso en su naturaleza, su ambiente tan cálido, acogedor y familiar. Una decoración exquisita, con tanto detalle especialmente las habitaciones, piscina, bar… El premio se lo llevan las mesas tan lindas con sus detalles al invitarnos a desayunos, almuerzos y cenas tan exquisitas. Y los maravillosos cactus y la cancha de golf que disfrutó Enrique. Pero todo esto sería nada, sin la calidez y amabilidad de su personal. Siempre sonrientes, amables, disponibles, Walter en su mesa de bar, Cuadrita con sus caballos y huertos, no quiero omitir a nadie, son todos! Muchas gracias a todos.</h4>
-								<footer>Familia Rusch Reichhard</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-felipe-lizama.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Una tremenda experiencia. Fui muy bien recibido y atendido por una comunidad que hace un tremendo equipo de trabajo, con infinita paciencia con sus huéspedes y con un chef formidable que con cariño y esmero nos deleitaba todo el día. Ni hablar del servicio de barra! Siempre nos sorprendían con los aperitivos. Excelente todo!!</h4>
-								<footer>Felipe Lizama</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-familia-meyohas.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Muchísimas gracias por el inigualable servicio y momentos que hemos vivido. Con alegría y muy descansados nos vamos pero volveremos sin duda.</h4>
-								<footer>Familia Meyohas</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-claudia-conserva.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Un hotel lleno de detalles, atención extraordinaria, comida excelente, naturaleza, belleza, recomendable a todos! Una maravilla y se nota el cariño con que lo hicieron sus dueños. Gran experiencia, no se la pierdan!</h4>
-								<footer>Claudia Conserva</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-peter-toskana.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Vivir el momento ahora, eso es lo que nosotros como familia buscamos al hacer este retiro despedida de una de nuestras hijas y se logró con creces, un lugar diferente, servicio de excelencia y máxima tranquilidad felicidad inolvidable!!</h4>
-								<footer>Familia Toskana Montero</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-familia-torres-cuevas.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">¡Realmente espectacular! El lugar, el paisaje, la tranquilidad, la privacidad y el personal que se esmera por hacernos sentir como en casa. Superó nuestras expectativas. En Chile no hay otro lugar como éste. Lamentablemente tuvimos que retornar a nuestro hogar pero con seguridad volveremos!</h4>
-								<footer>Familia Torres Cuevas</footer>
-							</blockquote>
-							<blockquote>
-								<div id="container-img-profile">
-									<img id="img-profile" class="mr-3" src="assets/images/testimonio-fernando-traviesa.png" alt="">
-								</div>
-								<br>
-								<h4 class="txt-desc-testimonios">Una experiencia maravillosa, gracias por la atención, cuidado y detalles. Felicitaciones por el cariño y entusiasmo que han puesto en este proyecto, sin duda requiere mucho de que hablar. Saludos.</h4>
-								<footer>Francisco Traviesa</footer>
-							</blockquote>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-
-		<section class="mg-news-gallery">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5">
-						<h2 class="mg-sec-left-title">Noticias Recientes</h2>
-						<ul class="mg-recnt-posts">
-							<li>
-								<div class="mg-recnt-post">
-									<div class="mg-rp-date">27 
-										<div class="mg-rp-month">may</div>
-									</div>
-									<h3><a href="#">A Standard Blog Post</a></h3>
-									<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti...</p>
-								</div>
-							</li>
-							<li>
-								<div class="mg-recnt-post">
-									<div class="mg-rp-date">27 
-										<div class="mg-rp-month">may</div>
-									</div>
-									<h3><a href="#">A Standard Blog Post</a></h3>
-									<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti...</p>
-								</div>
-							</li>
-							<li>
-								<div class="mg-recnt-post">
-									<div class="mg-rp-date">27 
-										<div class="mg-rp-month">may</div>
-									</div>
-									<h3><a href="#">A Standard Blog Post</a></h3>
-									<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti...</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">Nuestra Galería</h2>
-						<div class="mg-gallery-container">
-							<ul class="mg-gallery" id="mg-gallery">
-								<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
-							</ul>
-							<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
-								<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php require 'assets/partials/testimonial-slider.php'?>
 		<?php require 'assets/partials/footer.php'?>
 		<!--
 		All JavaScripts Codes Loaded

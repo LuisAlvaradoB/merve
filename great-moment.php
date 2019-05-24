@@ -16,8 +16,6 @@
 								<ul class="navbar-nav navbar-right">
                   			<li><a href="index.php">HOME</a>
 									</li>
-									<li><a href="#">COMUNIDAD</a>
-									</li>
                   			<li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="great-moment.php">Great Moment</a>
@@ -32,17 +30,11 @@
                   			</li>	
 									<li><a href="galeria.php">GALERIA</a>
 									</li>
+									<li><a href="index.php#testimonial-nav">COMUNIDAD</a>
+									</li>
 									<li><a href="contacto.php">CONTACTO</a>
 									</li>
 								</ul>
-							</div>
-							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
-								<div class="mg-search-box">
-									<form>
-										<input class="form-control" type="text" name="s" placeholder="Type Keyword...">
-										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -62,136 +54,112 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p>Pensado para los que quieran disfrutar junto a los suyos, compartiendo la villa con otros huéspedes. <br>Estadía en CasaMolle Villa & Golf.Check In: <br>Desde las 15.00 hrs – check out: 11.00 hrs.<br>Acceso a todas las áreas de la villa y sus actividades:</p>
+						<p>Pensado para los que quieran disfrutar junto a los suyos, compartiendo la villa con otros huéspedes. <br><strong>Estadía en CasaMolle Villa & Golf.Check In:</strong><br>Desde las 15.00 hrs – check out: 11.00 hrs.<br><strong>Acceso a todas las áreas de la villa y sus actividades:</strong></p>
 						<hr>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Cancha de golf de 9 hoyos</h3>
+							<div class="mg-feature-icon-title"><i class="fp-ht-golf "></i>
+								<h3 style="font-size:12px;">Cancha golf de 9 hoyos</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Piscina al aire libre</h3>
+							<div class="mg-feature-icon-title"><i class="fp-ht-swimmingpool"></i>
+								<h3 style="font-size:12px">Piscina aire libre</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Hot Tub & Sauna</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-hot-tub"></i> 
+								<h3 style="font-size:12px">Hot Tub & Sauna</h3>
 							</div>
 						</div>
 					</div>
 
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Área de bowls</h3>
+							<div class="mg-feature-icon-title"><i class="fp-ht-bowling"></i>
+								<h3 style="font-size:12px">Área de bowls</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Área de babyfootball</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-futbol"></i>
+								<h3 style="font-size:12px">Área de babyfootball</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Lagunas</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-tint"></i>
+								<h3 style="font-size:12px">Lagunas</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Paseos en Kayak</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-arrows-alt-v"></i>
+								<h3 style="font-size:12px">Paseos en Kayak</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Huerta orgánica</h3>
+							<div class="mg-feature-icon-title"><i class="fa fa-leaf"></i>
+								<h3 style="font-size:12px">Huerta orgánica</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Cabalgatas guiadas</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-horse"></i>
+								<h3 style="font-size:12px">Cabalgatas guiadas</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Trekking</h3>
+							<div class="mg-feature-icon-title"><i class="fa fa-walking"></i>
+								<h3 style="font-size:12px">Trekking</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-maid"></i>
-								<h3>Circuito deportivo al aire libre</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-table-tennis"></i>
+								<h3 style="font-size:12px">Circuito deportivo al aire libre</h3>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-								<h3>Anfiteatro</h3>
+							<div class="mg-feature-icon-title"><i class="fas fa-theater-masks"></i>
+								<h3 style="font-size:12px">Anfiteatro</h3>
 							</div>
 						</div>
 					</div>
-
-					<div class="col-sm-4">
-						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Todas las comidas diarias: Desayuno, Almuerzos, Snacks y Cena</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Bar abierto. Incluye: Selección de vinos chilenos, licores, aguas, bebidas y jugos</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="mg-feature">
-							<div class="mg-feature-icon-title"><i class="fp-ht-parking"></i>
-								<h3>Conexión Wifi ilimitado</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-
+				</div> <!--cierre primera fila-->
+				<hr>
 				<div class="row">
-					<div class="col-md-12">
-						<hr>
+					<div class="col-md-6">
 						<p>
-							Cargos adicionales huéspedes de la villa:
+						<strong>Cargos adicionales huéspedes de la villa:</strong>
 							<li>Carta seleccionada de licores ultra Premium.</li>
 							<li>Masajes.</li>
 							<li>Transporte.</li>
@@ -200,39 +168,104 @@
 							<li>De 3 a 13 años pagan el 50% del valor, compartiendo habitación con los padres.</li>
 							<li>Se requiere un depósito de un 30% en el momento de hacer la reserva.</li>
 							<li>El 70% restante, debe ser pagado 7 días antes de su llegada a la villa.</li>
+						
 						</p>
 					</div>
+					<div class="col-md-6">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (1).png" alt="img1">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (2).png" alt="img2">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (3).png" alt="img3">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (4).png" alt="img4">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (5).png" alt="img5">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (6).png" alt="img6">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (7).png" alt="img7">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (8).png" alt="img8">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (9).png" alt="img9">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (10).png" alt="img10">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="assets/images/galeria-interna/great-moment/Great_Moment (11).png" alt="img11">
+								</div>
+										
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
-				<hr>
-				<section class="mg-news-gallery">
+				
+				<!-- <section class="mg-news-gallery">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-3"></div>
-							<div class="col-lg-7">
-								<!-- <h2 class="mg-sec-left-title">Nuestra Galería</h2> -->
-								<div class="mg-gallery-container">
-									<ul class="mg-gallery" id="mg-gallery">
-										<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
-									</ul>
-									<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
-										<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
-										<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
-									</ul>
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-6">
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img class="d-block w-100" src="assets/images/gallery-01.png" alt="First slide">
+										</div>
+										
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
 								</div>
-							</div> <!--.col-md-7 -->
-							<div class="col-md-3"></div>
-						</div> <!-- row -->
-					</div> <!-- container -->
-				</section> 
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+					</div> 
+				</section>  -->
 
 			</div>
 		</div>

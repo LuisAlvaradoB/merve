@@ -16,8 +16,6 @@
 								<ul class="navbar-nav navbar-right">
                   			<li><a href="index.php">HOME</a>
 									</li>
-									<li><a href="#">COMUNIDAD</a>
-									</li>
                   			<li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="great-moment.php">Great Moment</a>
@@ -32,17 +30,11 @@
                   			</li>	
 									<li><a href="galeria.php">GALERIA</a>
 									</li>
+									<li><a href="index.php#testimonial-nav">COMUNIDAD</a>
+									</li>
 									<li><a href="contacto.php">CONTACTO</a>
 									</li>
 								</ul>
-							</div>
-							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
-								<div class="mg-search-box">
-									<form>
-										<input class="form-control" type="text" name="s" placeholder="Type Keyword...">
-										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -91,92 +83,75 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="mg-about-testimonial parallax">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mg-sec-title undefined">
-							<h2>Testimonials</h2>
-							<p>Here is some valuable word from our clients</p>
-						</div>
-						<div class="mg-testimonial-slider" id="mg-testimonial-slider">
-							<blockquote>
-								<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti. Coercendi fabulas sequatur dolorem nominant, faciendum dicitis perpauca intervenire calere.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-							<blockquote>
-								<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti. Coercendi fabulas sequatur dolorem nominant, faciendum dicitis perpauca intervenire calere.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-							<blockquote>
-								<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti. Coercendi fabulas sequatur dolorem nominant, faciendum dicitis perpauca intervenire calere.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="mg-team">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mg-sec-title undefined">
-							<h2>Our Stuff</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="mg-team-member">
-							<figure><img class="img-fluid" src="assets/images/member1.png" alt=""/></figure>
-							<div class="mg-team-member-overlayer"></div>
-							<div class="mg-team-info">
-								<h3>Joseph Gonzales</h3><strong>Manager</strong>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Potitur confectum existimant cognitio aristotele seditione.</p>
-								<ul class="mg-team-member-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
+
+			<section class="mg-news-gallery">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (1).png" alt="img1">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (2).png" alt="img2">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (3).png" alt="img3">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (4).png" alt="img4">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (5).png" alt="img5">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (6).png" alt="img6">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (7).png" alt="img7">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (8).png" alt="img8">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (9).png" alt="img9">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/galeria-interna/big-family/Big_Family (10).png" alt="img10">
+									</div>
+
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
 							</div>
 						</div>
+						<div class="col-md-2"></div>
 					</div>
-					<div class="col-sm-4">
-						<div class="mg-team-member">
-							<figure><img class="img-fluid" src="assets/images/member2.png" alt=""/></figure>
-							<div class="mg-team-member-overlayer"></div>
-							<div class="mg-team-info">
-								<h3>Joseph Gonzales</h3><strong>Manager</strong>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Potitur confectum existimant cognitio aristotele seditione.</p>
-								<ul class="mg-team-member-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="mg-team-member">
-							<figure><img class="img-fluid" src="assets/images/member3.png" alt=""/></figure>
-							<div class="mg-team-member-overlayer"></div>
-							<div class="mg-team-info">
-								<h3>Joseph Gonzales</h3><strong>Manager</strong>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Potitur confectum existimant cognitio aristotele seditione.</p>
-								<ul class="mg-team-member-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+				</div>	
+			</section> 
 		</div>
+		
+		
 		<?php require 'assets/partials/footer.php'?>
 		<!--
 		All JavaScripts Codes Loaded

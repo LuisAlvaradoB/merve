@@ -16,8 +16,6 @@
 								<ul class="navbar-nav navbar-right">
                 				<li><a href="index.php">HOME</a>
 									</li>
-									<li><a href="#">COMUNIDAD</a>
-									</li>
                   			<li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
 											<li><a href="great-moment.php">Great Moment</a>
@@ -32,17 +30,11 @@
                   			</li>	
 									<li><a href="galeria.php">GALERIA</a>
 									</li>
+									<li><a href="index.php#testimonial-nav">COMUNIDAD</a>
+									</li>
 									<li class="active"><a href="contacto.php">CONTACTO</a>
 									</li>
 								</ul>
-							</div>
-							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
-								<div class="mg-search-box">
-									<form>
-										<input class="form-control" type="text" name="s" placeholder="Escribe una palabra clave...">
-										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>
 							</div>
 						</div>
 					</div>
