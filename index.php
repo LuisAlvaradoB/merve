@@ -6,7 +6,31 @@
 
 <body>
 	<div class="preloader"></div>
-	
+	 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		
+			<div class="topnav topna" id="myTopnav">
+				<a href="#home" class="active">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+		</div> 
+		
+		<script>
+						/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			} 
+		</script>
 	<header class="header transp sticky">
 		<nav class="navbar navbar-inverse" style="padding-bottom: 20px;">
 			<div class="container-fluid">
@@ -14,10 +38,11 @@
 					<div class="row" style="width:100%;">
 						<div class="col-md-2 col-xs-5">
 							<div id="mySidenav"  class="sidenav">
-  							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  							<li><a href="index.php">HOME</a>
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+								<br>
+  							<li style="list-style: none;"><a href="index.php">HOME</a>
 								</li>
-								<li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+								<li style="list-style: none;" class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 									<ul class="dropdown-menu">
 										<li><a href="great-moment.php">Great Moment</a>
 										</li>
@@ -29,18 +54,17 @@
 										</li>
 									</ul>
 								</li>
-								<li><a href="galeria.php">GALERIA</a>
+								<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
 								</li>
-								<li><a href="index.php#testimonial-nav">COMUNIDAD</a>
+								<li style="list-style: none;"><a href="index.php#testimonial-nav">COMUNIDAD</a>
 								</li>
-								<li><a href="contacto.php">CONTACTO</a>
+								<li style="list-style: none;"><a href="contacto.php">CONTACTO</a>
 								</li>
 							</div>
 
-							<!-- Use any element to open the sidenav -->
 							<div class="menu-transparente" id="iconmenu">
-								<button type="button" id="btn-style" class="btn btn-warning btn-sm">
-									<span onclick="openNav()"><i class="fas fa-2x fa-bars"></i> Menu</span>
+								<button onclick="openNav()" type="button" id="btn-style" class="btn btn-warning btn-sm">
+									<i class="fas fa-1x fa-bars"></i> Menu
 								</button>
 							</div>
 							
@@ -51,7 +75,7 @@
 						<div class="col-md-2 col-xs-5">
 							<div class="menu-transparente" id="iconcalendar">
 								<button type="button" id="btn-style" class="btn btn-warning btn-sm">
-									<span>Reservations <i class="far fa-2x fa-calendar-alt"></i></span>
+									Reservations <i class="far fa-1x fa-calendar-alt"></i>
 								</button>
 							</div>
 						</div>
