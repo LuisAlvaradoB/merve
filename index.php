@@ -6,30 +6,18 @@
 
 <body>
 	<div class="preloader"></div>
+	
 	<header class="header transp sticky">
-		<nav class="navbar navbar-inverse">
-			<div class="container">
-				<div class="navbar navbar-expand-md justify-content-center">
-					<div class="row" style="width: 100%">
-						<div class="col-md-2">
-							<i class="fas fa-grip-lines"></i>
-						</div>
-						<div class="col-md-8">
-							<a class="navbar-brand" href="index.php"><img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
-						</div>
-						<div class="col-md-2">
-							<i class="far fa-calendar-alt"></i>
-						</div>
-					</div>
-					
-					<div class="mg-navs">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-						<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-							<ul class="navbar-nav navbar-right">
-							
-								<!-- <li class="active"><a href="index.php">HOME</a>
+		<nav class="navbar navbar-inverse" style="padding-bottom: 20px;">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="row" style="width:100%;">
+						<div class="col-md-2 col-xs-5">
+							<div id="mySidenav"  class="sidenav">
+  							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  							<li><a href="index.php">HOME</a>
 								</li>
-								<li class="dropdown"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
+								<li class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 									<ul class="dropdown-menu">
 										<li><a href="great-moment.php">Great Moment</a>
 										</li>
@@ -43,15 +31,44 @@
 								</li>
 								<li><a href="galeria.php">GALERIA</a>
 								</li>
-								<li><a href="#testimonial-nav">COMUNIDAD</a>
+								<li><a href="index.php#testimonial-nav">COMUNIDAD</a>
 								</li>
 								<li><a href="contacto.php">CONTACTO</a>
-								</li> -->
-							</ul>
-						</div>
+								</li>
+							</div>
 
+							<!-- Use any element to open the sidenav -->
+							<div class="menu-transparente" id="iconmenu">
+								<button type="button" id="btn-style" class="btn btn-warning btn-sm">
+									<span onclick="openNav()"><i class="fas fa-2x fa-bars"></i> Menu</span>
+								</button>
+							</div>
+							
+						</div>
+						<div class="col-md-8 col-xs-2">
+								<!-- <img class="menu-transparente" id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""> -->
+						</div>
+						<div class="col-md-2 col-xs-5">
+							<div class="menu-transparente" id="iconcalendar">
+								<button type="button" id="btn-style" class="btn btn-warning btn-sm">
+									<span>Reservations <i class="far fa-2x fa-calendar-alt"></i></span>
+								</button>
+							</div>
+						</div>
 					</div>
-				</div>
+
+					<script>
+					/* Set the width of the side navigation to 250px */
+						function openNav() {
+  						document.getElementById("mySidenav").style.width = "300px";
+						}
+
+						/* Set the width of the side navigation to 0 */
+						function closeNav() {
+						  document.getElementById("mySidenav").style.width = "0";
+						} 
+					</script>
+				</nav>
 			</div>
 		</nav>
 	</header>
