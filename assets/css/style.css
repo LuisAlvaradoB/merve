@@ -1,4 +1,35 @@
 @charset "UTF-8";
+
+#name-firma {
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#img-firma{
+  width: 155px;
+  height: auto;
+  padding-top: 30px;
+}
+#text-main-firma{
+  padding-top: 75px;
+  color: #a47e2f;
+  text-align: center;
+}
+.main-img-firma{
+  background-image: url("../images/quote-1440x400.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 350px;
+  height: 400px;
+}
+
+  
+#text-banner-suscribe{
+  color: white;
+  text-align: center;
+}
+
  /* Add a black background color to the top navigation */
  .topnav {
   background-color: #e7b315;
