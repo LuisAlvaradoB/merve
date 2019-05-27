@@ -11,10 +11,12 @@
 
 		
 			<div class="topnav topna" id="myTopnav">
-				<a href="#home" class="active">Home</a>
-				<a href="#news">News</a>
-				<a href="#contact">Contact</a>
-				<a href="#about">About</a>
+				<a href="index.php" class="active">Home</a>
+				<a href="index.php#main-section-experiencias">Experiencias</a>
+				<a href="#contacto.php">Contact</a>
+				<a href="galeria.php">Galería</a>
+				<a href="index.php#testimonial-nav">Comunidad</a>
+				<a href="contacto.php">Contacto</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 					<i class="fa fa-bars"></i>
 				</a>
