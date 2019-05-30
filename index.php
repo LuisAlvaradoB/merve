@@ -6,43 +6,43 @@
 
 <body>
 	<div class="preloader"></div>
-	 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		
-			<div class="topnav topna" id="myTopnav">
-				<a href="index.php" class="active">Home</a>
-				<a href="index.php#main-section-experiencias">Experiencias</a>
-				<a href="#contacto.php">Contact</a>
-				<a href="galeria.php">Galería</a>
-				<a href="index.php#testimonial-nav">Comunidad</a>
-				<a href="contacto.php">Contacto</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars"></i>
-				</a>
-		</div> 
-		
-		<script>
-						/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-			function myFunction() {
-				var x = document.getElementById("myTopnav");
-				if (x.className === "topnav") {
-					x.className += " responsive";
-				} else {
-					x.className = "topnav";
-				}
-			} 
-		</script>
+
+	<div class="topnav topna" id="myTopnav">
+		<a href="index.php" class="active">Home</a>
+		<a href="index.php#main-section-experiencias">Experiencias</a>
+		<a href="#contacto.php">Contact</a>
+		<a href="galeria.php">Galería</a>
+		<a href="index.php#testimonial-nav">Comunidad</a>
+		<a href="contacto.php">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
 	<header class="header transp sticky">
 		<nav class="navbar navbar-inverse" style="padding-bottom: 20px;">
 			<div class="container-fluid">
 				<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="row" style="width:100%;">
 						<div class="col-md-2 col-xs-5">
-							<div id="mySidenav"  class="sidenav">
+							<div id="mySidenav" class="sidenav">
 								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 								<br>
-  							<li style="list-style: none;"><a href="index.php">HOME</a>
+								<li style="list-style: none;"><a href="index.php">HOME</a>
 								</li>
 								<li style="list-style: none;" class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 									<ul class="dropdown-menu">
@@ -69,10 +69,10 @@
 									<i class="fas fa-1x fa-bars"></i> Menu
 								</button>
 							</div>
-							
+
 						</div>
 						<div class="col-md-8 col-xs-2">
-								<!-- <img class="menu-transparente" id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""> -->
+							<!-- <img class="menu-transparente" id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""> -->
 						</div>
 						<div class="col-md-2 col-xs-5">
 							<div class="menu-transparente" id="iconcalendar">
@@ -84,15 +84,15 @@
 					</div>
 
 					<script>
-					/* Set the width of the side navigation to 250px */
+						/* Set the width of the side navigation to 250px */
 						function openNav() {
-  						document.getElementById("mySidenav").style.width = "300px";
+							document.getElementById("mySidenav").style.width = "300px";
 						}
 
 						/* Set the width of the side navigation to 0 */
 						function closeNav() {
-						  document.getElementById("mySidenav").style.width = "0";
-						} 
+							document.getElementById("mySidenav").style.width = "0";
+						}
 					</script>
 				</nav>
 			</div>
@@ -101,21 +101,9 @@
 
 	<?php require 'assets/partials/carousel-slide.php' ?>
 	<?php require 'assets/partials/banner-comunidad-section.php' ?>
+	<?php require 'assets/partials/section-quote.php' ?>
 
-	<div class="mg-page-title main-img-firma ">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h4 id="text-main-firma">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero sint? Deserunt illo ea vitae quidem dolorem ducimus a quis ex ipsum animi. Iusto eum sequi minus id a optio?
-					</h4>
-					<img id="img-firma" src="assets/images/firma-text.png" alt="">
-					<h5 id="name-firma">Sir Lorem Ipsum</h5>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<section id="main-section-experiencias" class="mg-best-rooms">
+	<!-- <section id="main-section-experiencias" class="mg-best-rooms">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -172,8 +160,125 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+
+	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 main-experiencias-personalizadas">
+					<div class="mg-sec-title undefined">
+						<h2 id="title-explora-exp">EXPERIENCIAS PERSONALIZADAS</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
+								<figcaption style="top:150px">
+									<h2>GREAT MOMENT</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="great-moment.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
+								<figcaption style="top:150px">
+									<h2>BIG FAMILY</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="big-family.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
+								<figcaption style="top:150px">
+									<h2>BUSINESS & MEETINGS</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="business-meetings.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
+								<figcaption style="top:150px">
+									<h2>WEDDINGS & EVENTS</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="weedings-events.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
+	<section style="background-color:#4b5e71; margin-top: -70px;" id="main-section-experiencias " class="mg-best-rooms">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 main-experiencias-personalizadas">
+					<div class="mg-sec-title undefined">
+						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
+								<figcaption style="top:150px">
+									<h2>GREAT MOMENT</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="great-moment.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
+								<figcaption style="top:150px">
+									<h2>BIG FAMILY</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="big-family.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
+								<figcaption style="top:150px">
+									<h2>BUSINESS & MEETINGS</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="business-meetings.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-3">
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
+								<figcaption style="top:150px">
+									<h2>WEDDINGS & EVENTS</h2>
+									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+
+									</div>
+
+									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="weedings-events.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section class="mg-book-now">
 		<div class="container">
