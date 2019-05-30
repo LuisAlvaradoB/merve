@@ -1,5 +1,52 @@
 @charset "UTF-8";
 
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container1 {
+  position: relative;
+  /* width: 50%;
+  max-width: 300px; */
+}
+
+/* Make the image to responsive */
+.image1 {
+  display: block;
+  /* width: 100%;
+  height: auto; */
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+#text-bottom-main-landing {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#title-main-landing {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 .img-explora {
   width: 100%;
   height: 400px;
@@ -368,6 +415,7 @@ input[type=checkbox]:checked:before {
 
 input[type=radio] {
   border-radius: 50%;
+  display: none;
 }
 
 input[type=radio]:checked:before {
@@ -2058,7 +2106,7 @@ ul.styled-list.list-star li:before {
 }
 
 .mg-page-title {
-  padding-top: 70px;
+  padding-top: 150px;
   padding-bottom: 50px;
   /* background-image: url(../images/villa_2.png); */
   color: #fff;
@@ -4565,6 +4613,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   background-color: #16262e;
   padding: 70px 0 20px;
   color: #c0c8cb;
+  margin-top: -7px;
 }
 
 .mg-footer-widget .widget {

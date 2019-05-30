@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>Great Moment | Casa Molle Villa & Golf</title>
+<title>Experiencias | Casa Molle Villa & Golf</title>
 <?php require 'assets/partials/header.php' ?>
 
 <body>
@@ -43,13 +43,13 @@
 									</li>
 									<li style="list-style: none;" class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
 										<ul class="dropdown-menu">
-											<li><a href="great-moment.php">Great Moment</a>
+											<li><a href="experiencia-landing-1.php">Great Moment</a>
 											</li>
-											<li><a href="big-family.php">Big Family</a>
+											<li><a href="experiencia-landing-2.php">Big Family</a>
 											</li>
-											<li><a href="business-meetings.php">Business & Meetings</a>
+											<li><a href="experiencia-landing-3.php">Business & Meetings</a>
 											</li>
-											<li><a href="weddings-events.php">Weddings & Events</a>
+											<li><a href="experiencia-landing-4.php">Weddings & Events</a>
 											</li>
 										</ul>
 									</li>
@@ -139,10 +139,10 @@
 					<form id="mg-filter">
 						<fieldset>
 							<label class="btn btn-dark">
-								<input type="radio" name="filter" value="great-moment" checked="checked">Great Moment
+								<input type="radio" name="filter" value="great-moment">Great Moment
 							</label>
 							<label class="btn btn-dark">
-								<input type="radio" name="filter" value="big-family">Big Family
+								<input type="radio" name="filter" value="big-family" checked="checked">Big Family
 							</label>
 							<label class="btn btn-dark">
 								<input type="radio" name="filter" value="business-meetings">Business & Meetings
