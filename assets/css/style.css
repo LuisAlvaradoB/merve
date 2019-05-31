@@ -48,11 +48,12 @@
 }
 
 .img-explora {
-  width: 100%;
+  width: 356px;
   height: 400px;
 }
 #title-explora-exp{
   color: white;
+  margin-top: -50px;
 }
 .main-experiencias-personalizadas {
   background-color: #4b5e71;
@@ -69,9 +70,10 @@
   padding-top: 20px;
 }
 #text-main-firma{
-  padding-top: 50px;
+  /* padding-top: 50px; */
   color: #a47e2f;
   text-align: center;
+  margin-top: -50px;
 }
 .main-img-firma{
   background-image: url("../images/quote-1440x400.jpg");

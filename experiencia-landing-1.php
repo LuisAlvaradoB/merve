@@ -102,7 +102,7 @@
 				<div class="col-md-4"></div>
 				<div class="col-md-4">
 					<div style="position: absolute; margin-left: 70px;">
-						<img id="imglogo" src="assets/images/Logo_Casa_molle.png" alt="">
+						<a href="index.php"><img id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""></a>
 					</div>
 					<div class="col-md-4"></div>
 				</div>

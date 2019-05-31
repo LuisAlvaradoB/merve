@@ -1,4 +1,4 @@
-<section class="mg-book-now">
+<section class="mg-book-now" style="margin-top: -50px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-xs-12">
