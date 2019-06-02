@@ -101,9 +101,8 @@
 			<div class="row">
 				<div class="col-md-4"></div>
 				<div class="col-md-4">
-					<div style="position: absolute; margin-left: 70px;">
-						<img id="imglogo" src="assets/images/Logo_Casa_molle.png" alt="">
-					</div>
+					<div class="imglogo-banner">
+						<a href="index.php"><img id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""></a>
 					<div class="col-md-4"></div>
 				</div>
 			</div>
@@ -532,14 +531,11 @@
 							</div>
 						</div>
 					</div>
-
-
-
-
 				</div>
 			</div>
 		</div>
 	</div>
+	<br><br><br>
 	<?php require 'assets/partials/section-banner-rrss.php' ?>
 	</div>
 

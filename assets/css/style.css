@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+.imglogo-banner { 
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
 * {box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed */

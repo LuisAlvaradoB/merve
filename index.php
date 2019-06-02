@@ -110,7 +110,7 @@
 					<div class="mg-sec-title undefined">
 						<h2 id="title-explora-exp">EXPERIENCIAS PERSONALIZADAS</h2>
 					</div>
-					<div class="row">
+					<div class="row" style="margin-top: -15px;">
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
 								<figcaption style="top:150px">
@@ -155,103 +155,11 @@
 								</figcaption>
 							</figure> 
 						</div>
-						<!-- <figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
-							<figcaption style="top:150px">
-								<h2>GREAT MOMENT</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-								</div>
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
-							</figcaption>
-						</figure>
-
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
-							<figcaption style="top:150px">
-								<h2>BIG FAMILY</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-								</div>
-
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
-							</figcaption>
-						</figure>
-
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
-							<figcaption style="top:150px">
-								<h2>BUSINESS & MEETINGS</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-								</div>
-
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-3.php">Descubre</a>
-							</figcaption>
-						</figure>
-
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
-							<figcaption style="top:150px">
-								<h2>WEDDINGS & EVENTS</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-
-								</div>
-
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-4.php">Descubre</a>
-							</figcaption>
-						</figure> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<!-- <section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 main-experiencias-personalizadas" style="margin-top: -75px;"">
-					<div class="mg-sec-title undefined">
-						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
-					</div>
-					<div class="row" style="margin-bottom: -30px;">
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
-							<figcaption style="top:150px">
-								<h2>GREAT MOMENT</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-								</div>
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
-							</figcaption>
-						</figure>
-
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
-							<figcaption style="top:150px">
-								<h2>BIG FAMILY</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-								</div>
-
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
-							</figcaption>
-						</figure>
-
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
-							<figcaption style="top:150px">
-								<h2>BUSINESS & MEETINGS</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-								</div>
-
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-3.php">Descubre</a>
-							</figcaption>
-						</figure>
-
-						<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
-							<figcaption style="top:150px">
-								<h2>WEDDINGS & EVENTS</h2>
-								<div class="mg-room-rating"><i class="fa fa-star"> </i>
-
-								</div>
-
-								<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-4.php">Descubre</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
 
 	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
 		<div class="container-fluid">
@@ -260,7 +168,7 @@
 					<div class="mg-sec-title undefined">
 						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
 					</div>
-					<div class="row" style="margin-bottom: -30px;">
+					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
 								<figcaption style="top:150px">
