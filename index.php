@@ -151,11 +151,12 @@
 						</div>
 					</div>
 				</div>
+				<div id="section-explora"></div>
 			</div>
 		</div>
 	</section>
 
-	<div id="section-explora"></div>
+	
 	<section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
 		<div class="container-fluid">
 			<div class="row">
