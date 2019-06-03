@@ -216,7 +216,7 @@
 
 	<?php require 'assets/partials/section-banner-rrss.php' ?>
 
-	<section class="mg-features">
+	<!-- <section class="mg-features">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -279,7 +279,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<?php require 'assets/partials/testimonial-slider.php' ?>
 	<?php require 'assets/partials/footer.php' ?>
