@@ -108,7 +108,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
 								<figcaption style="top:150px">
-									<h2>GREAT MOMENT</h2>
+									<h2>ENCUENTROS Y REENCUENTROS</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 									</div>
 									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
@@ -118,7 +118,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
 								<figcaption style="top:150px">
-									<h2>BIG FAMILY</h2>
+									<h2>EMPRESARIALES DIFERENTES</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 									</div>
 
@@ -129,7 +129,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
 								<figcaption style="top:150px">
-									<h2>BUSINESS & MEETINGS</h2>
+									<h2>CELEBRACIONES ESPECIALES</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 									</div>
 
@@ -140,7 +140,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
 								<figcaption style="top:150px">
-									<h2>WEDDINGS & EVENTS</h2>
+									<h2>UBICACION</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 
 									</div>
@@ -167,7 +167,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
 								<figcaption style="top:150px">
-									<h2>GREAT MOMENT</h2>
+									<h2>EN MOVIMIENTO</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 									</div>
 									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
@@ -177,7 +177,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
 								<figcaption style="top:150px">
-									<h2>BIG FAMILY</h2>
+									<h2>GOLF</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 									</div>
 
@@ -188,7 +188,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
 								<figcaption style="top:150px">
-									<h2>BUSINESS & MEETINGS</h2>
+									<h2>RELAJO</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 									</div>
 
@@ -199,7 +199,7 @@
 						<div class="col-md-3 p-0">
 							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
 								<figcaption style="top:150px">
-									<h2>WEDDINGS & EVENTS</h2>
+									<h2>GASTRONOMIA</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
 
 									</div>

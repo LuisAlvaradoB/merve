@@ -95,7 +95,7 @@
 				<div class="col-md-4"></div>
 				<div class="col-md-4">
 					<div class="imglogo-banner">
-						<a href="index.php"><img id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""></a>
+						<a href="index.php"><img id="imglogo" src="assets/images/Logo_Casa_molle1.png" alt=""></a>
 					</div>
 					<div class="col-md-4"></div>
 				</div>
