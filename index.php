@@ -12,7 +12,8 @@
 
 	<div class="topnav topna" id="myTopnav">
 		<a href="index.php" class="active">Home</a>
-		<a href="index.php#main-section-experiencias">Experiencias</a>
+		<a href="#section-experiencias">Experiencias</a>
+		<a href="#section-explora">Explora</a>
 		<a href="#contacto.php">Contact</a>
 		<a href="galeria.php">Galería</a>
 		<a href="index.php#testimonial-nav">Comunidad</a>
@@ -44,17 +45,9 @@
 								<br>
 								<li style="list-style: none;"><a href="index.php">HOME</a>
 								</li>
-								<li style="list-style: none;" class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
-									<ul class="dropdown-menu">
-										<li><a href="experiencia-landing-1.php">Great Moment</a>
-										</li>
-										<li><a href="experiencia-landing-2.php">Big Family</a>
-										</li>
-										<li><a href="experiencia-landing-3.php">Business & Meetings</a>
-										</li>
-										<li><a href="experiencia-landing-4.php">Weddings & Events</a>
-										</li>
-									</ul>
+								<li style="list-style: none;"><a href="#section-experiencias">EXPERIENCIAS</a>
+								</li>
+								<li style="list-style: none;"><a href="#section-explora">EXPLORA</a>
 								</li>
 								<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
 								</li>
@@ -103,6 +96,7 @@
 	<?php require 'assets/partials/banner-comunidad-section.php' ?>
 	<?php require 'assets/partials/section-quote.php' ?>
 
+	<div id="section-experiencias"></div>
 	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
 		<div class="container-fluid">
 			<div class="row">
@@ -161,7 +155,8 @@
 		</div>
 	</section>
 
-	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
+	<div id="section-explora"></div>
+	<section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas" style="margin-top: -75px;"">

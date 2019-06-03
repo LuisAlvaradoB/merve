@@ -7,17 +7,18 @@
 <body>
 	<div class="preloader"></div>
 	<header class="header transp sticky">
-		<div class="topnav topna" id="myTopnav">
-			<a href="index.php" class="active">Home</a>
-			<a href="index.php#main-section-experiencias">Experiencias</a>
-			<a href="#contacto.php">Contact</a>
-			<a href="galeria.php">Galería</a>
-			<a href="index.php#testimonial-nav">Comunidad</a>
-			<a href="contacto.php">Contacto</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
-			</a>
-		</div>
+	<div class="topnav topna" id="myTopnav">
+		<a href="index.php" class="active">Home</a>
+		<a href="index.php#section-experiencias">Experiencias</a>
+		<a href="index.php#section-explora">Explora</a>
+		<a href="#contacto.php">Contact</a>
+		<a href="galeria.php">Galería</a>
+		<a href="index.php#testimonial-nav">Comunidad</a>
+		<a href="contacto.php">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
 
 		<script>
 			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -41,17 +42,9 @@
 									<br>
 									<li style="list-style: none;"><a href="index.php">HOME</a>
 									</li>
-									<li style="list-style: none;" class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
-										<ul class="dropdown-menu">
-											<li><a href="experiencia-landing-1.php">Great Moment</a>
-											</li>
-											<li><a href="experiencia-landing-2.php">Big Family</a>
-											</li>
-											<li><a href="experiencia-landing-3.php">Business & Meetings</a>
-											</li>
-											<li><a href="experiencia-landing-4.php">Weddings & Events</a>
-											</li>
-										</ul>
+									<li style="list-style: none;"><a href="index.php#section-experiencias">EXPERIENCIAS</a>
+									</li>
+									<li style="list-style: none;"><a href="index.php#section-explora">EXPLORA</a>
 									</li>
 									<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
 									</li>
@@ -451,10 +444,10 @@
 							</div>
 							<div class="col-md-6">
 								<p style="text-align:justify;">Realiza reuniones de trabajo, directorios, conferencias, lanzamientos de marca, Team building, inauguraciones y todo tipo de evento para tu empresa. Nos encargamos de la producción del evento, del viaje, de las acreditaciones, de ofrecer las actividades más diversas y entretenidas a su medida, con shows o expositores. Nuestro variado y sorprendente paisaje es óptimo también para producciones fotográficas o fílmicas.
-								Disponemos de 2 espectaculares salones:
-								Salón Directorio:Con capacidad para 12 personas y situado junto a la laguna principal, completamente vidreado. Disfruta de un ambiente único donde pensar y crear jamás fue tan agradable y productivo.
-								Salón Tikai Titi:Con capacidad para 170 personas, este salón es sorprendente. Inserto en un ambiente climatizado y con vista a la cancha de golf. Te sorprenderán las plantas y flores en su máximo esplendor.
-								Consulte por las cortesías asociadas a este programa. </p>
+									Disponemos de 2 espectaculares salones:
+									Salón Directorio:Con capacidad para 12 personas y situado junto a la laguna principal, completamente vidreado. Disfruta de un ambiente único donde pensar y crear jamás fue tan agradable y productivo.
+									Salón Tikai Titi:Con capacidad para 170 personas, este salón es sorprendente. Inserto en un ambiente climatizado y con vista a la cancha de golf. Te sorprenderán las plantas y flores en su máximo esplendor.
+									Consulte por las cortesías asociadas a este programa. </p>
 							</div>
 						</div>
 					</div>
@@ -467,68 +460,68 @@
 							</div>
 							<div class="col-md-6">
 								<p style="text-align:justify;">Casamolle Villa es el lugar soñado para celebrar matrimonios. Su entorno invita a conmemorar aniversarios o a disfrutar de cumpleaños. Nuestro equipo se encarga de organizar hasta el más mínimo detalle para que cada celebración sea memorable.
-								Nuestra propuesta va mucho más allá de una fiesta; es toda una experiencia para compartir con los que más quieres. Consulte por las cortesías asociadas a este programa.</p>
+									Nuestra propuesta va mucho más allá de una fiesta; es toda una experiencia para compartir con los que más quieres. Consulte por las cortesías asociadas a este programa.</p>
 							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-md-6"></div>
 							<div class="col-md-6">
-							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-								<ol class="carousel-indicators">
-									<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-								</ol>
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (1).png" alt="img1">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (2).png" alt="img2">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (3).png" alt="img3">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (4).png" alt="img4">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (5).png" alt="img5">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (6).png" alt="img6">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (7).png" alt="img7">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (8).png" alt="img8">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (9).png" alt="img9">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (10).png" alt="img10">
-									</div>
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (1).png" alt="img1">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (2).png" alt="img2">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (3).png" alt="img3">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (4).png" alt="img4">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (5).png" alt="img5">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (6).png" alt="img6">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (7).png" alt="img7">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (8).png" alt="img8">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (9).png" alt="img9">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/galeria-interna/weddings/Wedding_Events (10).png" alt="img10">
+										</div>
 
-									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
+										<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
 								</div>
-							</div>
 							</div>
 						</div>
 					</div>
