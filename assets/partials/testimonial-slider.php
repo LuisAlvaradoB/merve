@@ -1,4 +1,4 @@
-<div id="testimonial-nav" class="mg-about-testimonial ">
+<div id="testimonial-nav" class="mg-about-testimonial " style="margin-top: -7px;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">

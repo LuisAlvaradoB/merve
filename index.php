@@ -94,7 +94,7 @@
 
 	<?php require 'assets/partials/carousel-slide.php' ?>
 	<?php require 'assets/partials/banner-comunidad-section.php' ?>
-	<?php require 'assets/partials/section-quote.php' ?>
+	
 
 	<div id="section-experiencias"></div>
 	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
