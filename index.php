@@ -102,11 +102,11 @@
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas">
 					<div class="mg-sec-title undefined">
-						<h2 id="title-explora-exp">EXPERIENCIAS PERSONALIZADAS</h2>
+						<h2 id="title-explora-exp">EXPERIENCIAS PERSONALIZADAS</h2> 
 					</div>
 					<div class="row" style="margin-top: -15px;">
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/01-encuentros-min.png" alt="img-greatMoment" />
 								<figcaption style="top:150px">
 									<h2>ENCUENTROS Y REENCUENTROS</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -116,7 +116,7 @@
 							</figure>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/02-empresariales-min.png" alt="img-bigFamily" />
 								<figcaption style="top:150px">
 									<h2>EMPRESARIALES DIFERENTES</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -127,7 +127,7 @@
 							</figure>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/03-celebraciones-especiales-min.png" alt="img-business" />
 								<figcaption style="top:150px">
 									<h2>CELEBRACIONES ESPECIALES</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -138,7 +138,7 @@
 							</figure>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/04-locaciones-min.png" alt="img-weddings" />
 								<figcaption style="top:150px">
 									<h2>UBICACION</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -166,7 +166,7 @@
 					</div>
 					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/GREAT_MOMENT1.png" alt="img-greatMoment" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/05-movimiento-min.png" alt="img-greatMoment" />
 								<figcaption style="top:150px">
 									<h2>EN MOVIMIENTO</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -176,7 +176,7 @@
 							</figure>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BIG_FAMILY.png" alt="img-bigFamily" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
 								<figcaption style="top:150px">
 									<h2>GOLF</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -187,7 +187,7 @@
 							</figure>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/BUSINESS_MEETINGS.png" alt="img-business" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/07-relajo-min.png" alt="img-business" />
 								<figcaption style="top:150px">
 									<h2>RELAJO</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>
@@ -198,7 +198,7 @@
 							</figure>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/WEDDINGS_EVENTS_.png" alt="img-weddings" />
+							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/08-gastronomia-min.png" alt="img-weddings" />
 								<figcaption style="top:150px">
 									<h2>GASTRONOMIA</h2>
 									<div class="mg-room-rating"><i class="fa fa-star"> </i>

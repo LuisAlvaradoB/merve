@@ -53,9 +53,10 @@
 						<div class="col-lg-6">
 							<ul class="mg-footer-nav">
 								<li><a href="index.php">Home</a></li>
-								<li><a href="#">Comunidad</a></li>
-								<li><a href="index.php#main-section-experiencias">Experiencias</a></li>
+								<li><a href="index.php#section-experiencias">Experiencias</a></li>
+								<li><a href="index.php#section-explora">Explora</a></li>
 								<li><a href="galeria.php">Galería</a></li>
+								<li><a href="index.php#testimonial-nav">Comunidad</a></li>
 								<li><a href="contacto.php">Contacto</a></li>
 							</ul>
 						</div>
