@@ -157,7 +157,7 @@
 	</section>
 
 	
-	<section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
+	<!-- <section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas" style="margin-top: -75px;"">
@@ -208,6 +208,41 @@
 									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-4.php">Descubre</a>
 								</figcaption>
 							</figure> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 main-experiencias-personalizadas" style="margin-top: -75px;"">
+					<!-- <div class="mg-sec-title undefined">
+						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
+					</div> -->
+					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
+						<div class="col-md-6 p-0">
+							<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/05-movimiento-min.png" alt="img-greatMoment" />
+								<figcaption style="margin-top:0px">
+									<h2 style="display: none;">EN MOVIMIENTO</h2>
+									<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+									</div>
+									<p style="font-size: 25px;font-family: Playfair Display;">COSAS POR HACER</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-md-6 p-0">
+							<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
+								<figcaption style="margin-top:0px"> 
+									<h2 style="display: none;">GOLF</h2>
+									<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+									</div>
+
+									<p style="font-size: 25px;font-family: Playfair Display;">UBICACION.</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
+								</figcaption>
+							</figure>
 						</div>
 					</div>
 				</div>
