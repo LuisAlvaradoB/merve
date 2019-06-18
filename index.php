@@ -224,8 +224,43 @@
 					</div> -->
 					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
 						<div class="col-md-6 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/05-movimiento-min.png" alt="img-greatMoment" />
-								<figcaption style="margin-top:0px">
+						<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">COSAS POR HACER</h2>
+											<div class="mg-room-rating" style="margin-right: 20px;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-2.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+
+						
+						
+						<div class="col-md-6 p-0">
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EN MOVIMIENTO</h2>
+											<div class="mg-room-rating" style="margin-right: 20px;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-2.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
+
+								<!-- <figcaption style="margin-top:0px">
 									<h2 style="display: none;">EN MOVIMIENTO</h2>
 									<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 									</div>
@@ -240,8 +275,8 @@
 									<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 									</div>
 
-									<p style="font-size: 25px;font-family: Playfair Display;">UBICACION.</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
-								</figcaption>
+									<p style="font-size: 25px;font-family: Playfair Display;">UBICACION</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
+								</figcaption> -->
 							</figure>
 						</div>
 					</div>
@@ -249,6 +284,8 @@
 			</div>
 		</div>
 	</section>
+
+	
 
 	<?php require 'assets/partials/section-banner-rrss.php' ?>
 
