@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>Great Moment | Casa Molle Villa & Golf</title>
+<title>Experiencias | Casa Molle Villa & Golf</title>
 <?php require 'assets/partials/header.php' ?>
 
 <body>
@@ -9,7 +9,8 @@
 	<header class="header transp sticky">
 		<div class="topnav topna" id="myTopnav">
 			<a href="index.php" class="active">Home</a>
-			<a href="index.php#main-section-experiencias">Experiencias</a>
+			<a href="index.php#section-experiencias">Experiencias</a>
+			<a href="index.php#section-explora">Explora</a>
 			<a href="#contacto.php">Contact</a>
 			<a href="galeria.php">Galería</a>
 			<a href="index.php#testimonial-nav">Comunidad</a>
@@ -41,17 +42,9 @@
 									<br>
 									<li style="list-style: none;"><a href="index.php">HOME</a>
 									</li>
-									<li style="list-style: none;" class="dropdown active"><a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPERIENCIAS</a>
-										<ul class="dropdown-menu">
-											<li><a href="great-moment.php">Great Moment</a>
-											</li>
-											<li><a href="big-family.php">Big Family</a>
-											</li>
-											<li><a href="business-meetings.php">Business & Meetings</a>
-											</li>
-											<li><a href="weddings-events.php">Weddings & Events</a>
-											</li>
-										</ul>
+									<li style="list-style: none;"><a href="index.php#section-experiencias">EXPERIENCIAS</a>
+									</li>
+									<li style="list-style: none;"><a href="index.php#section-explora">EXPLORA</a>
 									</li>
 									<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
 									</li>
@@ -101,9 +94,8 @@
 			<div class="row">
 				<div class="col-md-4"></div>
 				<div class="col-md-4">
-					<div style="position: absolute; margin-left: 70px;">
-						<img id="imglogo" src="assets/images/Logo_Casa_molle.png" alt="">
-					</div>
+					<div class="imglogo-banner">
+						<a href="index.php"><img id="imglogo" src="assets/images/Logo_Casa_molle1.png" alt=""></a>
 					<div class="col-md-4"></div>
 				</div>
 			</div>
@@ -139,13 +131,13 @@
 					<form id="mg-filter">
 						<fieldset>
 							<label class="btn btn-dark">
-								<input type="radio" name="filter" value="great-moment" checked="checked">Great Moment
+								<input type="radio" name="filter" value="great-moment">Great Moment
 							</label>
 							<label class="btn btn-dark">
-								<input type="radio" name="filter" value="big-family">Big Family
+								<input type="radio" name="filter" value="big-family" >Big Family
 							</label>
 							<label class="btn btn-dark">
-								<input type="radio" name="filter" value="business-meetings">Business & Meetings
+								<input type="radio" name="filter" value="business-meetings"checked="checked">Business & Meetings
 							</label>
 							<label class="btn btn-dark">
 								<input type="radio" name="filter" value="weddings-events">Weddings & Events
@@ -532,14 +524,11 @@
 							</div>
 						</div>
 					</div>
-
-
-
-
 				</div>
 			</div>
 		</div>
 	</div>
+	<br><br><br>
 	<?php require 'assets/partials/section-banner-rrss.php' ?>
 	</div>
 
