@@ -106,48 +106,72 @@
 					</div>
 					<div class="row" style="margin-top: -15px;">
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/01-encuentros-min.png" alt="img-greatMoment" />
-								<figcaption style="top:150px">
-									<h2>ENCUENTROS Y REENCUENTROS</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-									</div>
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
-								</figcaption>
-							</figure>
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/01-encuentros-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">ENCUENTROS Y REENCUENTROS</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/02-empresariales-min.png" alt="img-bigFamily" />
-								<figcaption style="top:150px">
-									<h2>EMPRESARIALES DIFERENTES</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-									</div>
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/02-empresariales-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
 
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
-								</figcaption>
-							</figure>
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EMPRESARIALES DIFERENTES</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/03-celebraciones-especiales-min.png" alt="img-business" />
-								<figcaption style="top:150px">
-									<h2>CELEBRACIONES ESPECIALES</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-									</div>
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/03-celebraciones-especiales-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
 
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-3.php">Descubre</a>
-								</figcaption>
-							</figure>
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">CELEBRACIONES ESPECIALES</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
 						</div>
 						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/04-locaciones-min.png" alt="img-weddings" />
-								<figcaption style="top:150px">
-									<h2>UBICACION</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/04-locaciones-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
 
-									</div>
-
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-4.php">Descubre</a>
-								</figcaption>
-							</figure> 
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">UBICACION</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -155,65 +179,6 @@
 			</div>
 		</div>
 	</section>
-
-	
-	<!-- <section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 main-experiencias-personalizadas" style="margin-top: -75px;"">
-					<div class="mg-sec-title undefined">
-						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
-					</div>
-					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
-						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/05-movimiento-min.png" alt="img-greatMoment" />
-								<figcaption style="top:150px">
-									<h2>EN MOVIMIENTO</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-									</div>
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
-								</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
-								<figcaption style="top:150px">
-									<h2>GOLF</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-									</div>
-
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
-								</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/07-relajo-min.png" alt="img-business" />
-								<figcaption style="top:150px">
-									<h2>RELAJO</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-									</div>
-
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-3.php">Descubre</a>
-								</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" src="assets/images/08-gastronomia-min.png" alt="img-weddings" />
-								<figcaption style="top:150px">
-									<h2>GASTRONOMIA</h2>
-									<div class="mg-room-rating"><i class="fa fa-star"> </i>
-
-									</div>
-
-									<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-main" href="experiencia-landing-4.php">Descubre</a>
-								</figcaption>
-							</figure> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
 
 	<section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
 		<div class="container-fluid">
@@ -223,7 +188,8 @@
 						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
 					</div> -->
 					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
-						<div class="col-md-6 p-0">
+
+					<div class="col-md-6 p-0">
 						<div class="container_test">
 								<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
 									<figcaption style="margin-top:0px"> 
@@ -233,16 +199,14 @@
 
 										<div class="overlay">
 											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">COSAS POR HACER</h2>
-											<div class="mg-room-rating" style="margin-right: 20px;"><i class="fa fa-star"> </i>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
-										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-2.php">Descubre</a>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
 									</figcaption>
 								</figure>
 							</div>
 						</div>
 
-						
-						
 						<div class="col-md-6 p-0">
 							<div class="container_test">
 								<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
@@ -253,30 +217,12 @@
 
 										<div class="overlay">
 											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EN MOVIMIENTO</h2>
-											<div class="mg-room-rating" style="margin-right: 20px;"><i class="fa fa-star"> </i>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
-										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-2.php">Descubre</a>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
 									</figcaption>
 								</figure>
 							</div>
-
-								<!-- <figcaption style="margin-top:0px">
-									<h2 style="display: none;">EN MOVIMIENTO</h2>
-									<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
-									</div>
-									<p style="font-size: 25px;font-family: Playfair Display;">COSAS POR HACER</p><a class="btn btn-main" href="experiencia-landing-1.php">Descubre</a>
-								</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-6 p-0">
-							<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/06-Golf-2-min.png" alt="img-bigFamily" />
-								<figcaption style="margin-top:0px"> 
-									<h2 style="display: none;">GOLF</h2>
-									<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
-									</div>
-
-									<p style="font-size: 25px;font-family: Playfair Display;">UBICACION</p><a class="btn btn-main" href="experiencia-landing-2.php">Descubre</a>
-								</figcaption> -->
 							</figure>
 						</div>
 					</div>
@@ -289,70 +235,7 @@
 
 	<?php require 'assets/partials/section-banner-rrss.php' ?>
 
-	<!-- <section class="mg-features">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="mg-sec-title undefined">
-						<h2>Comodidades del Hotel</h2>
-						<p>These best rooms chosen by our customers</p>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="mg-feature">
-								<div class="mg-feature-icon-title"><i class="fp-ht-receptionist"></i>
-									<h3>24-hour reception</h3>
-								</div>
-								<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mg-feature">
-								<div class="mg-feature-icon-title"><i class="fa fa-cogs"></i>
-									<h3>Room service</h3>
-								</div>
-								<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mg-feature">
-								<div class="mg-feature-icon-title"><i class="fa fa-car"></i>
-									<h3>Car hire</h3>
-								</div>
-								<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="mg-feature">
-								<div class="mg-feature-icon-title"><i class="fa fa-phone"></i>
-									<h3>Wake-up call</h3>
-								</div>
-								<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mg-feature">
-								<div class="mg-feature-icon-title"><i class="fa fa-coffee"></i>
-									<h3>Coffee and tea</h3>
-								</div>
-								<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mg-feature">
-								<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-									<h3>Free Wi-Fi</h3>
-								</div>
-								<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
+	
 
 	<?php require 'assets/partials/testimonial-slider.php' ?>
 	<?php require 'assets/partials/footer.php' ?>
