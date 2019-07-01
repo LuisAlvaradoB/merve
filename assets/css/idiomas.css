@@ -1,0 +1,49 @@
+div .header
+{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.nav ul
+{
+    list-style: none;
+    left: -16%;
+}
+
+.nav ul li{
+    width: 40.5px;
+    text-align: center;
+}
+
+.nav li  a
+{
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px,15px;
+    display: block;
+}
+
+.nav li a:hover
+{
+    background-color: #cfc2c2; 
+}
+
+.nav >li
+{
+    float: left;
+}
+
+.nav li ul
+{
+    display: none;
+    position:absolute;
+}
+
+.nav li:hover > ul
+{
+    display: block;
+    transition: .3s all ease-in;
+}

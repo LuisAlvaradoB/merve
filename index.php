@@ -8,6 +8,8 @@
 	<div class="preloader"></div>
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/idiomas.css">
 
 
 	<div class="topnav topna" id="myTopnav">
@@ -73,6 +75,18 @@
 									Reservations <i class="far fa-1x fa-calendar-alt"></i>
 								</button>
 							</div>
+							<!--Lenguajes de la pagina-->
+							<div class = "header";>
+								<ul class = "nav">
+									<li><a href="#">LENG</a>
+										<ul>
+											<li><a href="#">ESP</a></li>
+											<li><a href="#">EN</a></li>
+											<li><a href="#">POR</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 
@@ -97,7 +111,7 @@
 	
 
 	<div id="section-experiencias"></div>
-	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
+	<section style="background-color:black; border-block-start: 20px;" class="mg-best-rooms">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas">
