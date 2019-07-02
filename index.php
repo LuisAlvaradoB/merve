@@ -128,7 +128,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">ENCUENTROS Y REENCUENTROS</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">ENCUENTROS Y REENCUENTROS</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -145,7 +145,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EMPRESARIALES DIFERENTES</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EMPRESARIALES DIFERENTES</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -162,7 +162,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">CELEBRACIONES ESPECIALES</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">CELEBRACIONES ESPECIALES</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -179,7 +179,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">UBICACION</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">UBICACION</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -212,7 +212,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">COSAS POR HACER</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">COSAS POR HACER</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -230,7 +230,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EN MOVIMIENTO</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EN MOVIMIENTO</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>

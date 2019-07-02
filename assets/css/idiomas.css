@@ -1,6 +1,15 @@
+@font-face
+{
+  font-family: AvantGardeDemiBT;
+    src:url(fonts/AvantGardeDemiBT.woff);
+}
+
 div .header
 {
+    
+    font-family: AvantGardeDemiBT;
     position: absolute;
+    width: 40.5px;
     top: 45%;
     left: 10%;
 }
@@ -8,11 +17,11 @@ div .header
 .nav ul
 {
     list-style: none;
-    left: -16%;
+    right: -1px;
 }
 
 .nav ul li{
-    width: 40.5px;
+    width: 42px;
     text-align: center;
 }
 
