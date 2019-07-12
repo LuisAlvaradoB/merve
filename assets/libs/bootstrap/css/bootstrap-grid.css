@@ -27,6 +27,17 @@ html {
   margin-left: auto;
 }
 
+@font-face
+{
+  font-family: AvantGardeBookBT;
+  src:url(fonts/AvantGardeBookBT.woff);
+}
+@font-face
+{
+  font-family: AvantGardeDemiBT;
+    src:url(fonts/AvantGardeDemiBT.woff);
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -50,6 +61,7 @@ html {
     max-width: 1140px;
   }
 }
+
 
 .container-fluid {
   width: 100%;
@@ -500,6 +512,7 @@ html {
     max-width: 25%;
   }
   .col-md-4 {
+    font-family: AvantGardeBookBT;
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
@@ -520,10 +533,12 @@ html {
     max-width: 58.333333%;
   }
   .col-md-8 {
+    font-family: AvantGardeDemiBT;
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
+
   .col-md-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;

@@ -8,6 +8,8 @@
 	<div class="preloader"></div>
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/idiomas.css">
 
 
 	<div class="topnav topna" id="myTopnav">
@@ -42,19 +44,44 @@
 						<div class="col-md-2 col-xs-5">
 							<div id="mySidenav" class="sidenav">
 								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+								<div class="logo-nav">
+									<img src="assets/images/Logo_Casa_molle1.png" alt="400">
+								</div>
+        <br>
+        <div class="reservation">
+          <div class="btn-reservation">
+              <p><a href="">Reservar <i class="far fa-1x fa-calendar-alt icono-calendar"></i></a> </p>
+              
+          </div>
+        </div>
 								<br>
-								<li style="list-style: none;"><a href="index.php">HOME</a>
-								</li>
-								<li style="list-style: none;"><a href="#section-experiencias">EXPERIENCIAS</a>
-								</li>
-								<li style="list-style: none;"><a href="#section-explora">EXPLORA</a>
-								</li>
-								<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
-								</li>
-								<li style="list-style: none;"><a href="index.php#testimonial-nav">COMUNIDAD</a>
-								</li>
-								<li style="list-style: none;"><a href="contacto.php">CONTACTO</a>
-								</li>
+								<a href="index.php">
+									<div class="section-nav"><p>Inicio</p></div>
+								</a>
+								<a href="galeria.php">
+									<div class="section-nav"><p>Galeria</p></div>
+								</a>
+								<ul class= "title_section">
+									<li id="nav_display" class= "nav_display">
+											<a href="#section-experiencias" class="title-experienicias"><p>Experiencias</p></a>
+           <span onclick="displayMenu();">
+             <i id="arrowIcon" class="fas fa-chevron-down icon-arrow"></i>
+           </span>
+           <hr>
+										<ul id="subMenu" class= "sub_title_section display">
+											<li><a href="#">Encuentros y Reencuentros</a></li>
+											<li><a href="#">Empresariales diferentes</a></li>
+											<li><a href="#">Celebraciones especiales</a></li>
+											<li><a href="#">Ubicacion</a></li>
+										</ul>
+									</li>
+								</ul>
+								<a href="index.php#testimonial-nav">
+									<div class="section-nav"><p>Comunidad</p></div>
+								</a>
+								<a href="contacto.php">
+									<div class="section-nav"><p>Contacto</p></div>
+								</a>
 							</div>
 
 							<div class="menu-transparente" id="iconmenu">
@@ -73,13 +100,25 @@
 									Reservations <i class="far fa-1x fa-calendar-alt"></i>
 								</button>
 							</div>
+							<!--Lenguajes de la pagina-->
+							<div class = "header";>
+								<ul class = "nav">
+									<li><a href="#">LENG</a>
+										<ul>
+											<li><a href="#">ESP</a></li>
+											<li><a href="#">EN</a></li>
+											<li><a href="#">POR</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 
 					<script>
 						/* Set the width of the side navigation to 250px */
 						function openNav() {
-							document.getElementById("mySidenav").style.width = "300px";
+							document.getElementById("mySidenav").style.width = "250px";
 						}
 
 						/* Set the width of the side navigation to 0 */
@@ -87,6 +126,7 @@
 							document.getElementById("mySidenav").style.width = "0";
 						}
 					</script>
+					<script src="assets/js/nav-menu.js"></script>
 				</nav>
 			</div>
 		</nav>
@@ -97,7 +137,7 @@
 	
 
 	<div id="section-experiencias"></div>
-	<section style="background-color:#4b5e71;" id="main-section-experiencias " class="mg-best-rooms">
+	<section style="background-color:black; border-block-start: 20px;" class="mg-best-rooms">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas">
@@ -114,7 +154,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">ENCUENTROS Y REENCUENTROS</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">ENCUENTROS Y REENCUENTROS</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -131,7 +171,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EMPRESARIALES DIFERENTES</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EMPRESARIALES DIFERENTES</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -148,7 +188,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">CELEBRACIONES ESPECIALES</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">CELEBRACIONES ESPECIALES</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -165,7 +205,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">UBICACION</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">UBICACION</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -198,7 +238,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">COSAS POR HACER</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">COSAS POR HACER</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
@@ -216,7 +256,7 @@
 										</div>
 
 										<div class="overlay">
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px;">EN MOVIMIENTO</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EN MOVIMIENTO</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
