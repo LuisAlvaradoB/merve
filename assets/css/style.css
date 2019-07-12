@@ -197,6 +197,15 @@
   display: none;
 } 
 
+.display
+{
+    display: none;
+}
+
+.on > ul
+{
+    display: block;
+}
 
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 
@@ -261,30 +270,31 @@
 #iconmenu{
   text-align: left;
 }
+ 
+/* The side navigation menu */
 
- /* The side navigation menu */
- .sidenav {
+.sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #16262e; /* Black*/
+  background-color:#86786b;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.4s; /* 0.4 second transition effect to slide in the sidenav */
+   
 }
 
 /* The navigation menu links */
 .sidenav a {
   font-family: AvantGardeDemiBT;
-  padding: 8px 8px 8px 32px;
+  /*padding: 8px 8px 8px 32px;*/
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: white;
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -292,15 +302,117 @@
   color: #e7b315;
 }
 
+.sidenav li
+{
+  list-style: none;
+  text-align: left;
+  
+}	
+
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 0px;
   font-size: 36px;
-  margin-left: 50px;
+  background-color: #7b6e5e;
 }
 
+.logo-nav
+{
+  background-color: #7b6e5e;
+}
+
+.logo-nav img
+{
+  margin-right: 10%;
+  width: 200px;
+}
+
+.section-nav
+{
+  text-align: left;
+  padding-left: 40px;
+}
+
+.title_section
+{
+  width: 230px;
+  margin:0px;
+  padding-left: 40px;
+}
+
+.sub_title_section
+{
+  padding: 10px;
+  background-color:  #7b6e5e;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sub_title_section a
+{
+  font-size: 15px;
+  padding: 5px;
+}
+
+.reservation
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-reservation
+{
+    
+    width: 190px;
+    height: 40px;
+    background-color: white;
+    border-radius: .5em;
+    cursor: pointer;
+    margin: 15px;
+  
+}
+
+.btn-reservation p
+{
+    text-align: center;
+    margin: 5px;
+}
+
+.btn-reservation p a
+{
+    color: #7b6e5e;
+}
+
+.icono-calendar
+{
+  font-size: 25px;
+  margin-top: 2px;
+  margin-left: 5%;
+  color:#7b6e5e;
+}
+
+.icon-arrow
+{
+  cursor: pointer;
+  margin-top: 1%;
+  float:right;
+  font-size: 20px; 
+-webkit-transition: color 0.4s;
+}
+
+.icon-arrow:hover
+{
+   color: #e7b315;
+}
+
+.title-experienicias
+{
+  float: left;
+  width: 170px;
+}
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;
@@ -386,6 +498,7 @@ a {
 
 a:hover, a:active, a:focus {
   color: #16262e;
+  outline: none;
 }
 
 h1,

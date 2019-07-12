@@ -44,19 +44,44 @@
 						<div class="col-md-2 col-xs-5">
 							<div id="mySidenav" class="sidenav">
 								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+								<div class="logo-nav">
+									<img src="assets/images/Logo_Casa_molle1.png" alt="400">
+								</div>
+        <br>
+        <div class="reservation">
+          <div class="btn-reservation">
+              <p><a href="">Reservar <i class="far fa-1x fa-calendar-alt icono-calendar"></i></a> </p>
+              
+          </div>
+        </div>
 								<br>
-								<li style="list-style: none;"><a href="index.php">HOME</a>
-								</li>
-								<li style="list-style: none;"><a href="#section-experiencias">EXPERIENCIAS</a>
-								</li>
-								<li style="list-style: none;"><a href="#section-explora">EXPLORA</a>
-								</li>
-								<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
-								</li>
-								<li style="list-style: none;"><a href="index.php#testimonial-nav">COMUNIDAD</a>
-								</li>
-								<li style="list-style: none;"><a href="contacto.php">CONTACTO</a>
-								</li>
+								<a href="index.php">
+									<div class="section-nav"><p>Inicio</p></div>
+								</a>
+								<a href="galeria.php">
+									<div class="section-nav"><p>Galeria</p></div>
+								</a>
+								<ul class= "title_section">
+									<li id="nav_display" class= "nav_display">
+											<a href="#section-experiencias" class="title-experienicias"><p>Experiencias</p></a>
+           <span onclick="displayMenu();">
+             <i id="arrowIcon" class="fas fa-chevron-down icon-arrow"></i>
+           </span>
+           <hr>
+										<ul id="subMenu" class= "sub_title_section display">
+											<li><a href="#">Encuentros y Reencuentros</a></li>
+											<li><a href="#">Empresariales diferentes</a></li>
+											<li><a href="#">Celebraciones especiales</a></li>
+											<li><a href="#">Ubicacion</a></li>
+										</ul>
+									</li>
+								</ul>
+								<a href="index.php#testimonial-nav">
+									<div class="section-nav"><p>Comunidad</p></div>
+								</a>
+								<a href="contacto.php">
+									<div class="section-nav"><p>Contacto</p></div>
+								</a>
 							</div>
 
 							<div class="menu-transparente" id="iconmenu">
@@ -93,7 +118,7 @@
 					<script>
 						/* Set the width of the side navigation to 250px */
 						function openNav() {
-							document.getElementById("mySidenav").style.width = "300px";
+							document.getElementById("mySidenav").style.width = "250px";
 						}
 
 						/* Set the width of the side navigation to 0 */
@@ -101,6 +126,7 @@
 							document.getElementById("mySidenav").style.width = "0";
 						}
 					</script>
+					<script src="assets/js/nav-menu.js"></script>
 				</nav>
 			</div>
 		</nav>
