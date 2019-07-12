@@ -23,12 +23,15 @@
 							<div class="widget">
 								<h2 class="mg-widget-title">Newsletter</h2>
 								<p>Inbecilloque elegans errorem concedo coniuncta arare dicant etsi electram minimum.</p>
-								<form>
-									<p>
-										<input class="form-control" type="email" placeholder="Your Email">
-									</p>
-									<input class="btn btn-main" type="submit" value="Subscribe">
-								</form>
+								
+									<!-- Button trigger modal -->
+									<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+  									Suscribirse
+									</button>
+
+									<!-- Modal -->
+									<?php require 'assets/partials/modal-mailchimp.php' ?>
+									
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
