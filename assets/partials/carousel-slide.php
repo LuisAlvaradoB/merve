@@ -1,20 +1,22 @@
 <div class="carousel slide" id="mega-slider" data-ride="carousel">
-			<!-- Indicators-->
-			<ol class="carousel-indicators">
-				<li class="active" data-target="#mega-slider" data-slide-to="0"></li>
-				<li data-target="#mega-slider" data-slide-to="1"></li>
-				<li data-target="#mega-slider" data-slide-to="2"></li>
-			</ol>
-			<!-- Wrapper for slides-->
-			<div class="carousel-inner">
-				<div class="carousel-item active beactive"><img src="assets/images/slide-1.png" alt="...">
-					<div class="carousel-caption"><img src="assets/images/stars.png" alt="">
-						<h2>UN HOTEL UNICO EN EL MUNDO</h2>
-						<p>Y ESTA EN CHILE</p>
+	<div class="carousel-inner">
+		<div class="carousel-item active beactive" style="margin-top:-4px;">
+			<div style="position: relative;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<div style="position: absolute; margin-left: 70px;">
+								<img id="imglogo" href="index.php" src="assets/images/Logo_Casa_molle1.png" alt="">
+							</div>
+							<div class="col-md-4"></div>
+						</div>
 					</div>
 				</div>
-			
 			</div>
-			<div class="carousel-control-prev carousel-control left" href="#mega-slider" role="button" data-slide="prev"></div>
-			<div class="carousel-control-next carousel-control right" href="#mega-slider" role="button" data-slide="next"></div>
+			<video width="100%" height="100%" autoplay playsinline loop muted style="border-top-style: solid;margin-bottom: -7px;">
+				<source src="assets/video/CASA MOLLE _ VILLA & GOLF (short).mp4" type="video/mp4">
+			</video>
 		</div>
+	</div>
+</div>

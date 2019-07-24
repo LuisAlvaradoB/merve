@@ -2,32 +2,18 @@
 			<div class="mg-footer-widget">
 				<div class="container">
 					<div class="row">
+					<div class="col-lg-2 col-md-6">
+
+					</div>
 						<div class="col-lg-3 col-md-6">
 							<div class="widget">
-								<h2 class="mg-widget-title">Contact US</h2>
-								<address><strong>Envato</strong><br>Level 13, 2 Elizabeth St, Melbourne<br>Victoria 3000 Australia
+								<h2 class="mg-widget-title">Contacto</h2>
+								<address><strong>Casa Molle Villa & Golf</strong><br>Fundo La Barrica s/n, El Molle,<br>Vicuña, Región de Coquimbo
 									
 								</address>
-								<p>+000-123-456-789<br>+000-123-456-789
-									
+								<p>+569 44257739
 								</p>
-								<p><a href="mailto:#">example@example.com</a></p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="widget">
-								<h2 class="mg-widget-title">Instagram</h2>
-								<ul class="mg-instagram">
-									<li><a href="#"><img src="assets/images/ins-01.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-02.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-03.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-04.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-05.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-06.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-07.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-08.png" alt=""></a></li>
-									<li><a href="#"><img src="assets/images/ins-09.png" alt=""></a></li>
-								</ul>
+								<p><a href="mailto:info@casamolle.cl">info@casamolle.cl</a></p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
@@ -47,11 +33,11 @@
 								<h2 class="mg-widget-title">Social Media</h2>
 								<p>Tibi alienus possimus nomini legendus pariatur, logikh assidua philosophis expectat occultarum accedit suscipit interrogari difficilius reddidisti.</p>
 								<ul class="mg-footer-social">
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.instagram.com/casamollevillaandgolf/"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/CasaMolleVilla/"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://twitter.com/casamollevilla"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://cl.linkedin.com/company/casamollevilla"><i class="fab fa-linkedin"></i></a></li>
+									<li><a href="https://www.youtube.com/channel/UCaKkgAVs8YfOYiNlFPC0LMQ/featured"><i class="fab fa-youtube"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -63,15 +49,16 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="mg-footer-nav">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Rooms</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="index.php#section-experiencias">Experiencias</a></li>
+								<li><a href="index.php#section-explora">Explora</a></li>
+								<li><a href="galeria.php">Galería</a></li>
+								<li><a href="index.php#testimonial-nav">Comunidad</a></li>
+								<li><a href="contacto.php">Contacto</a></li>
 							</ul>
 						</div>
 						<div class="col-lg-6">
-							<p>&copy; 2015 <a href="http://www.cantothemes.com">CantoThemes</a>. All rights reserved.
+							<p style="color:white">&copy; 2019 <a href="http://www.cantothemes.com">Casa Molle Villa & Golf</a>. Todos los derehos reservados.
 							</p>
 						</div>
 					</div>

@@ -1,289 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<title>Casa Molle Villa & Golf | Un hotel único en el mundo</title>
-	<?php require 'assets/partials/header.php'?>
-	
-	<body>
-		<div class="preloader"></div>
-		<header class="header transp sticky">
-			<nav class="navbar navbar-inverse">
-				<div class="container">
-					<div class="navbar navbar-expand-md justify-content-between"><a class="navbar-brand" href="#"><img src="assets/images/Logo_Casa_molle.png" alt="logo"></a>
-						<div class="mg-navs">
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-							<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-								<ul class="navbar-nav navbar-right">
-									<li class="active"><a href="index.php">HOME</a>
+<title>Casa Molle Villa & Golf | Un hotel único en el mundo</title>
+<?php require 'assets/partials/header.php' ?>
+
+<body>
+	<div class="preloader"></div>
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/idiomas.css">
+
+
+	<div class="topnav topna" id="myTopnav">
+		<a href="index.php" class="active">Home</a>
+		<a href="#section-experiencias">Experiencias</a>
+		<a href="#section-explora">Explora</a>
+		<a href="#contacto.php">Contact</a>
+		<a href="galeria.php">Galería</a>
+		<a href="index.php#testimonial-nav">Comunidad</a>
+		<a href="contacto.php">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<header class="header transp sticky">
+		<nav class="navbar navbar-inverse" style="padding-bottom: 20px;">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="row" style="width:100%;">
+						<div class="col-md-2 col-xs-5">
+							<div id="mySidenav" class="sidenav">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+								<div class="logo-nav">
+									<img src="assets/images/Logo_Casa_molle1.png" alt="400">
+								</div>
+								<br>
+								<div class="reservation">
+								<div class="btn-reservation">
+									<p><a href="https://casamolle.paxer.com/reservacion">Reservar <i class="far fa-1x fa-calendar-alt icono-calendar"></i></a> </p>
+									
+								</div>
+								</div>
+								<br>
+								<a href="index.php">
+									<div class="section-nav"><p>Inicio</p></div>
+								</a>
+								<a href="galeria.php">
+									<div class="section-nav"><p>Galeria</p></div>
+								</a>
+								<ul class= "title_section">
+									<li id="nav_display" class= "nav_display">
+											<a href="#section-experiencias" class="title-experienicias"><p>Experiencias</p></a>
+										<span onclick="displayMenu();">
+										<i id="arrowIcon" class="fas fa-chevron-down icon-arrow"></i>
+										</span>
+										<hr>
+										<ul id="subMenu" class= "sub_title_section display">
+											<li><a href="experiencia-landing-1.php">Familia</a></li>
+											<li><a href="experiencia-landing-1.php">Bienestar</a></li>
+											<li><a href="experiencia-landing-1.php">Eventos</a></li>
+											<li><a href="experiencia-landing-1.php">Corporativo</a></li>
+										</ul>
 									</li>
-									<li><a href="comunidad.php">COMUNIDAD</a>
-									</li>
-									<li><a href="programas.php">PROGRAMAS</a>
-									</li>
-									<li><a href="galeria.php">GALERIA</a>
-									</li>
-									<li><a href="contacto.php">CONTACTO</a>
+								</ul>
+								<a href="index.php#testimonial-nav">
+									<div class="section-nav"><p>Comunidad</p></div>
+								</a>
+								<a href="contacto.php">
+									<div class="section-nav"><p>Contacto</p></div>
+								</a>
+							</div>
+
+							<div class="menu-transparente" id="iconmenu">
+								<button onclick="openNav()" type="button" id="btn-style" class="btn btn-warning btn-sm">
+									<i class="fas fa-1x fa-bars"></i> Menu
+								</button>
+							</div>
+
+						</div>
+						<div class="col-md-8 col-xs-2">
+							<!-- <img class="menu-transparente" id="imglogo" src="assets/images/Logo_Casa_molle.png" alt=""> -->
+						</div>
+						<div class="col-md-2 col-xs-5">
+							<div class="menu-transparente" id="iconcalendar">
+								<a href="https://casamolle.paxer.com/reservacion" class="btn btn-warning btn-sm" style="margin: 0; padding: 0;">
+									<button type="button" id="btn-style" class="btn btn-warning btn-sm">
+										Reservations <i class="far fa-1x fa-calendar-alt"></i>
+									</button>
+								</a>
+							</div>
+							<!--Lenguajes de la pagina-->
+							<div class = "header">
+								<ul class = "nav">
+									<li><a href="#">LENG</a>
+										<ul>
+											<li><a href="#">ESP</a></li>
+											<li><a href="#">EN</a></li>
+											<li><a href="#">POR</a></li>
+										</ul>
 									</li>
 								</ul>
 							</div>
-							<div class="mg-search-box-cont"><a class="mg-search-box-trigger" href="#"><i class="fa fa-search"></i></a>
-								<div class="mg-search-box">
-									<form>
-										<input class="form-control" type="text" name="s" placeholder="Escribe una palabra clave...">
-										<button class="btn btn-main" type="submit"><i class="fa fa-search"></i></button>
-									</form>
-								</div>
-							</div>
 						</div>
 					</div>
-				</div>
-			</nav>
-		</header>
 
-		<?php require 'assets/partials/carousel-slide.php'?>
-		<?php require 'assets/partials/reserva-section.php'?>
+					<script>
+						/* Set the width of the side navigation to 250px */
+						function openNav() {
+							document.getElementById("mySidenav").style.width = "250px";
+						}
 
-		
-		<section class="mg-best-rooms">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mg-sec-title undefined">
-							<h2>Our Best Rooms</h2>
-							<p>These best rooms chosen by our customers</p>
-						</div>
-						<div class="row">
-							<div class="col-md-4">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/room-1.png" alt="img11"/>
-									<figcaption>
-										<h2>Super Deluxe</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-											
-										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">View Details<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
-									</figcaption>
-								</figure>
-							</div>
-							<div class="col-md-4">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/room-2.png" alt="img11"/>
-									<figcaption>
-										<h2>Super Deluxe</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-											
-										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">View Details<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
-									</figcaption>
-								</figure>
-							</div>
-							<div class="col-md-4">
-								<figure class="mg-room "><img class="img-fluid" src="assets/images/room-3.png" alt="img11"/>
-									<figcaption>
-										<h2>Super Deluxe</h2>
-										<div class="mg-room-rating"><i class="fa fa-star"> </i> 5.0
-											
-										</div>
-										<div class="mg-room-price">$249<sup>.99/Night</sup></div>
-										<p>adversantur probatum iudicante indicaverunt repugnantibus.</p><a class="btn btn-link" href="#">View Details<i class="fa fa-angle-double-right"></i></a><a class="btn btn-main" href="#">Book</a>
-									</figcaption>
+						/* Set the width of the side navigation to 0 */
+						function closeNav() {
+							document.getElementById("mySidenav").style.width = "0";
+						}
+					</script>
+					<script src="assets/js/nav-menu.js"></script>
+				</nav>
+			</div>
+		</nav>
+	</header>
+
+	<?php require 'assets/partials/carousel-slide.php' ?>
+	<?php require 'assets/partials/banner-comunidad-section.php' ?>
+	
+
+	<div id="section-experiencias"></div>
+	<section style="background-color:#7b6e5e; border-block-start: 20px;" class="mg-best-rooms">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 main-experiencias-personalizadas">
+					<div class="mg-sec-title undefined">
+						<h2 id="title-explora-exp" style="padding-top: 0px;margin-top: -65px;margin-bottom: 24px;">WE PROMISE GREAT MEMORIES <img src="assets/images/Estrella.png" width="60" alt=""> </h2> 
+					</div>
+					<div class="row" style="margin-top: -15px;">
+						<div class="col-md-3 p-0">
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/Familia-min.png" alt="img-bigFamily" />
+										<figcaption style="margin-top:0px"> 
+											<h2 style="display: none;">GOLF</h2>
+											<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+											</div>
+
+											<div class="overlay">
+												<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">FAMILIA</h2>
+												<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+											</div>
+											<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
+										</figcaption>
 								</figure>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="mg-about parallax">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">About Mega Hotel</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliqua venandi mutat plerisque nostrum vos, geometria intellegimus percurri mediocritatem aeque suppetet explicatis, praeclaram ambigua cogitavisse vituperatoribus dicent signiferumque alios improbe, reliquisti rudem, consedit pendet circumcisaque amorem patria magnopere inmortalibus dolere. Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum crudelis exercitumque, nobis, videntur doloribus patre poetarum omnisque cognitionem primum, atomos certamen possent, adversantur probatum iudicante indicaverunt repugnantibus, operis aequi aequitate clarorum occultarum multa diis sine inter.</p>
-					</div>
-					<div class="col-lg-5">
-						<div class="video-responsive">
-							<iframe src="https://player.vimeo.com/video/134008155" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="mg-features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mg-sec-title undefined">
-							<h2>Hotel facilties</h2>
-							<p>These best rooms chosen by our customers</p>
-						</div>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="mg-feature">
-									<div class="mg-feature-icon-title"><i class="fp-ht-receptionist"></i>
-										<h3>24-hour reception</h3>
-									</div>
-									<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="mg-feature">
-									<div class="mg-feature-icon-title"><i class="fa fa-cogs"></i>
-										<h3>Room service</h3>
-									</div>
-									<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="mg-feature">
-									<div class="mg-feature-icon-title"><i class="fa fa-car"></i>
-										<h3>Car hire</h3>
-									</div>
-									<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-								</div>
+						<div class="col-md-3 p-0">
+							<div class="container_test">
+								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/bienestar-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">BIENESTAR</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="mg-feature">
-									<div class="mg-feature-icon-title"><i class="fa fa-phone"></i>
-										<h3>Wake-up call</h3>
-									</div>
-									<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-								</div>
+						<div class="col-md-3 p-0">
+							<div class="container_test">
+							<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/01-encuentros-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EVENTOS</h2>
+											<div class="mg-room-rating" style="margin-right: 20px ;   display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
 							</div>
-							<div class="col-md-4">
-								<div class="mg-feature">
-									<div class="mg-feature-icon-title"><i class="fa fa-coffee"></i>
-										<h3>Coffee and tea</h3>
-									</div>
-									<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="mg-feature">
-									<div class="mg-feature-icon-title"><i class="fp-ht-computer"></i>
-										<h3>Free Wi-Fi</h3>
-									</div>
-									<p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
-								</div>
+						</div>
+						<div class="col-md-3 p-0">
+							<div class="container_test">
+							<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/02-empresariales-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">CORPORATIVO</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-xperiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div id="section-explora"></div>
 			</div>
-		</section>
-		<section class="mg-testi-partners parallax">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<h2 class="mg-sec-left-title">Testimonial</h2>
-						<div class="mg-testimonial-slider" id="mg-testimonial-slider">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-								<footer>John Doe, Example Inc</footer>
-							</blockquote>
+		</div>
+	</section>
+
+	<section style="background-color:#4b5e71;" id="main-section-experiencias main-section-explora " class="mg-best-rooms">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 main-experiencias-personalizadas" style="margin-top: -75px;"">
+					<!-- <div class="mg-sec-title undefined">
+						<h2 id="title-explora-exp">EXPLORA CASA MOLLE</h2>
+					</div> -->
+					<div class="row" style="margin-bottom: -30px; margin-top: -15px;"> 
+
+					<div class="col-md-6 p-0">
+						<div class="container_test">
+									<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/cosasporhacer-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">COSAS POR HACER</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-6">
-						<h2 class="mg-sec-left-title">Our Partners</h2>
-						<div class="mg-part-logos" id="mg-part-logos">
-							<li><img src="assets/images/part-logo-1.png" alt="Partner Logo"/></li>
-							<li><img src="assets/images/part-logo-2.png" alt="Partner Logo"/></li>
-							<li><img src="assets/images/part-logo-3.png" alt="Partner Logo"/></li>
-							<li><img src="assets/images/part-logo-1.png" alt="Partner Logo"/></li>
-							<li><img src="assets/images/part-logo-2.png" alt="Partner Logo"/></li>
-							<li><img src="assets/images/part-logo-3.png" alt="Partner Logo"/></li>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="mg-news-gallery">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5">
-						<h2 class="mg-sec-left-title">Recent News</h2>
-						<ul class="mg-recnt-posts">
-							<li>
-								<div class="mg-recnt-post">
-									<div class="mg-rp-date">27 
-										<div class="mg-rp-month">may</div>
-									</div>
-									<h3><a href="#">A Standard Blog Post</a></h3>
-									<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti...</p>
-								</div>
-							</li>
-							<li>
-								<div class="mg-recnt-post">
-									<div class="mg-rp-date">27 
-										<div class="mg-rp-month">may</div>
-									</div>
-									<h3><a href="#">A Standard Blog Post</a></h3>
-									<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti...</p>
-								</div>
-							</li>
-							<li>
-								<div class="mg-recnt-post">
-									<div class="mg-rp-date">27 
-										<div class="mg-rp-month">may</div>
-									</div>
-									<h3><a href="#">A Standard Blog Post</a></h3>
-									<p>Nostram virtutem poterimus quoddam praesertim legendos libero exhorrescere saluti...</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-7">
-						<h2 class="mg-sec-left-title">Our Gallery</h2>
-						<div class="mg-gallery-container">
-							<ul class="mg-gallery" id="mg-gallery">
-								<li><img src="assets/images/gallery-01.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-02.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-05.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-06.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-07.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-08.png" alt="Partner Logo"></li>
-							</ul>
-							<ul class="mg-gallery-thumb" id="mg-gallery-thumb">
-								<li><img src="assets/images/gallery-thumb-01.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-02.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-05.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-06.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-07.png" alt="Partner Logo"></li>
-								<li><img src="assets/images/gallery-thumb-08.png" alt="Partner Logo"></li>
-							</ul>
+
+						<div class="col-md-6 p-0">
+							<div class="container_test">
+							<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/ubicación-min.png" alt="img-bigFamily" />
+									<figcaption style="margin-top:0px"> 
+										<h2 style="display: none;">GOLF</h2>
+										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
+										</div>
+
+										<div class="overlay">
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">UBICACIÓN</h2>
+											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
+										</div>
+										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>
+									</figcaption>
+								</figure>
+							</div>
+							</figure>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<?php require 'assets/partials/footer.php'?>
-		<!--
+		</div>
+	</section>
+
+	
+
+	<?php require 'assets/partials/section-banner-rrss.php' ?>
+
+	
+
+	<?php require 'assets/partials/testimonial-slider.php' ?>
+	<?php require 'assets/partials/footer.php' ?>
+	<!--
 		All JavaScripts Codes Loaded
 		Ex: jquery, bootstrap, etc.
 		-->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/js/owl.carousel.min.js"></script>
-		<script src="assets/js/jssor.slider.mini.js"></script>
-		<script src="assets/js/classie.js"></script>
-		<script src="assets/js/selectFx.js"></script>
-		<script src="assets/js/bootstrap-datepicker.min.js"></script>
-		<script src="assets/js/starrr.min.js"></script>
-		<script src="assets/js/nivo-lightbox.min.js"></script>
-		<script src="assets/js/jquery.shuffle.min.js"></script>
-		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="assets/js/gmaps.min.js"></script>
-		<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-		<script src="assets/js/scripts.js"></script>
-	</body>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jssor.slider.mini.js"></script>
+	<script src="assets/js/classie.js"></script>
+	<script src="assets/js/selectFx.js"></script>
+	<script src="assets/js/bootstrap-datepicker.min.js"></script>
+	<script src="assets/js/starrr.min.js"></script>
+	<script src="assets/js/nivo-lightbox.min.js"></script>
+	<script src="assets/js/jquery.shuffle.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="assets/js/gmaps.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+
 </html>
