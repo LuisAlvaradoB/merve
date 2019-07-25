@@ -130,7 +130,9 @@
   margin-top: -50px;
 }
 .main-experiencias-personalizadas {
-  background-color: #4b5e71;
+
+  background-color: #161b16;
+
 }
 #name-firma {
   letter-spacing: 2px;
@@ -245,7 +247,9 @@
 }
 
 #btn-style{
-  border-radius: 20px;
+
+  border-radius: .5em;
+
 }
 
 .menu-transparente{
@@ -801,7 +805,7 @@ img {
 .btn {
   font-family: AvantGardeDemiBT;
   font-size: 14px;
-  border-radius: 1px;
+  border-radius: .5em;
   font-weight: 600;
   border-width: 0;
   padding: 8px 25px;
@@ -860,14 +864,28 @@ img {
 }
 
 .btn-main {
-  color: #FFF;
-  background-color: #e7b315;
-  border-color: #e7b315;
+  color: #161b16;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .btn-main:hover {
-  background-color: #eec341;
-  border-color: #eec341;
+  background-color: #7b6e5e;
+  border-color: #7b6e5e;
+  color: #fff;
+}
+
+.btn-suscribe
+{
+  color: #161b16;
+  background-color: #fff;
+  border-color: #fff
+}
+
+.btn-suscribe:hover
+{
+  background-color: #7b6e5e;
+  border-color: #7b6e5e;
   color: #fff;
 }
 
@@ -961,14 +979,21 @@ img {
 
 .btn-warning {
   color: #FFF;
-  background-color: #e7b315;
-  border-color: #f6a430;
+
+  background-color: #7b6e5e;  
+  border-color: #7b6e5e
+
 }
 
 .btn-warning:hover {
-  background-color: #f8b961;
-  border-color: #f8b961;
+  background-color: #877b6c;
+  border-color: #877b6c;
   color: #fff;
+}
+
+a .btn-warning:active
+{
+  border-color: #877b6c;
 }
 
 .btn-outline-warning {
@@ -2535,8 +2560,10 @@ ul.styled-list.list-star li:before {
 }
 
 .mg-book-now {
-  background-color: #16262e;
-  padding: 50px 0;
+
+  background-color: #161b16;
+  padding: 50px 0 15px 0;
+
 }
 
 .mg-book-now .mg-bn-title {
@@ -2989,7 +3016,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 
 .mg-best-rooms {
-  padding: 70px 0 40px;
+  padding: 70px 0 20px;
   background-color: #fff;
 }
 
@@ -2997,8 +3024,6 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   text-align: center;
 
   position: relative;
-  padding-bottom: 10px;
-  margin-bottom: 40px;
 }
 
 .mg-sec-title h2 {
@@ -3019,7 +3044,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   display: block;
   width: 80px;
   height: 3px;
-  background-color: #e7b315;
+  background-color: #7b6e5e;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -3105,7 +3130,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #e7b315;
+  background-color: #86786b;
 }
 
 .mg-room figcaption .mg-room-fecilities {
@@ -4335,7 +4360,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 
 .mg-about-testimonial {
   padding: 70px 0;
-  background-color: #16262e;
+  background-color: #161b16;
   background-image: url(../images/about-bg.png);
   background-position: center center;
   color: #fff;
@@ -4818,9 +4843,11 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 
 .mg-footer-widget {
-  background-color: #16262e;
+  background-color: #86786b;
   padding: 70px 0 20px;
-  color: #c0c8cb;
+
+  color: white;
+
   margin-top: -7px;
 }
 
@@ -4985,13 +5012,13 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 .mg-copyright {
   padding: 15px 0;
   color: #7a8a92;
-  background-color: #132027;
+  background-color: #7b6e5e;
   font-size: 13px;
   text-align: right;
 }
 
 .mg-copyright a {
-  color: #96a3a9;
+  color: #ffffff;
 }
 
 .mg-copyright a:hover {
@@ -5409,7 +5436,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
     content: '';
     width: 100px;
     height: 3px;
-    background-color: #e7b315;
+    background-color: #161b16;
     position: absolute;
     bottom: 5px;
     left: 50%;

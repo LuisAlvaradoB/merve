@@ -3,7 +3,9 @@
 			<div class="row">
 				<div class="col-lg-4 col-xs-12">
 					<div class="row">
-						<h3 style="color: #e7b315">Conecta con CasaMolle</h3>
+
+						<h3 style="color: white">Conecta con CasaMolle</h3>
+
 					</div>
 				</div>
 				<div class="col-lg-6 col-xs-12">
@@ -15,11 +17,7 @@
 							<a href="https://www.tripadvisor.cl/Hotel_Review-g970257-d15289729-Reviews-Casamolle_Villa_Golf-Vicuna_Coquimbo_Region.html" target="_blanck"><i class=" fab fa-tripadvisor fa-3x" style="color:white; padding-right: 30px;"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-xs-12">
-					<div class="row">
-						<a href="https://casamolle.paxer.com/reservacion" target="_blank" class="btn btn-main btn-block ">Descargar Brochure</a>
-					</div>
-				</div> <!-- col-lg-9 -->
+
 			</div>
 		</div>
 	</section>
