@@ -235,7 +235,7 @@
 						<div class="container_test">
 									<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/cosasporhacer-min.png" alt="img-bigFamily" />
 									<figcaption style="margin-top:0px"> 
-										<h2 style="display: none;">CasaMolle</h2>
+										<h2 style="display: none;">CasaMolle2</h2>
 										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 										</div>
 
