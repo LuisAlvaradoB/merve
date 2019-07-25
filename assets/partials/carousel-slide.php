@@ -1,6 +1,8 @@
 <div class="carousel slide" id="mega-slider" data-ride="carousel">
 	<div class="carousel-inner">
+
 		<div class="carousel-item active beactive" style="margin-top:-4px;">
+
 			<div style="position: relative;">
 				<div class="container">
 					<div class="row">

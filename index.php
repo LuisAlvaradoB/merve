@@ -47,6 +47,7 @@
 								<div class="logo-nav">
 									<img src="assets/images/Logo_Casa_molle1.png" alt="400">
 								</div>
+
 								<br>
 								<div class="reservation">
 								<div class="btn-reservation">
@@ -64,6 +65,7 @@
 								<ul class= "title_section">
 									<li id="nav_display" class= "nav_display">
 											<a href="#section-experiencias" class="title-experienicias"><p>Experiencias</p></a>
+
 										<span onclick="displayMenu();">
 										<i id="arrowIcon" class="fas fa-chevron-down icon-arrow"></i>
 										</span>
@@ -73,6 +75,7 @@
 											<li><a href="experiencia-landing-1.php">Bienestar</a></li>
 											<li><a href="experiencia-landing-1.php">Eventos</a></li>
 											<li><a href="experiencia-landing-1.php">Corporativo</a></li>
+
 										</ul>
 									</li>
 								</ul>
@@ -96,6 +99,7 @@
 						</div>
 						<div class="col-md-2 col-xs-5">
 							<div class="menu-transparente" id="iconcalendar">
+
 								<a href="https://casamolle.paxer.com/reservacion" class="btn btn-warning btn-sm" style="margin: 0; padding: 0;">
 									<button type="button" id="btn-style" class="btn btn-warning btn-sm">
 										Reservations <i class="far fa-1x fa-calendar-alt"></i>
@@ -104,6 +108,7 @@
 							</div>
 							<!--Lenguajes de la pagina-->
 							<div class = "header">
+
 								<ul class = "nav">
 									<li><a href="#">LENG</a>
 										<ul>
@@ -139,16 +144,21 @@
 	
 
 	<div id="section-experiencias"></div>
+
 	<section style="background-color:#7b6e5e; border-block-start: 20px;" class="mg-best-rooms">
+
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas">
 					<div class="mg-sec-title undefined">
+
 						<h2 id="title-explora-exp" style="padding-top: 0px;margin-top: -65px;margin-bottom: 24px;">WE PROMISE GREAT MEMORIES <img src="assets/images/Estrella.png" width="60" alt=""> </h2> 
+
 					</div>
 					<div class="row" style="margin-top: -15px;">
 						<div class="col-md-3 p-0">
 							<div class="container_test">
+
 								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/Familia-min.png" alt="img-bigFamily" />
 										<figcaption style="margin-top:0px"> 
 											<h2 style="display: none;">GOLF</h2>
@@ -167,39 +177,47 @@
 						<div class="col-md-3 p-0">
 							<div class="container_test">
 								<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/bienestar-min.png" alt="img-bigFamily" />
+
 									<figcaption style="margin-top:0px"> 
 										<h2 style="display: none;">GOLF</h2>
 										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 										</div>
 
 										<div class="overlay">
+
 											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">BIENESTAR</h2>
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
+
 									</figcaption>
 								</figure>
 							</div>
 						</div>
 						<div class="col-md-3 p-0">
 							<div class="container_test">
+
 							<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/01-encuentros-min.png" alt="img-bigFamily" />
+
 									<figcaption style="margin-top:0px"> 
 										<h2 style="display: none;">GOLF</h2>
 										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 										</div>
 
 										<div class="overlay">
+
 											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EVENTOS</h2>
 											<div class="mg-room-rating" style="margin-right: 20px ;   display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
+
 									</figcaption>
 								</figure>
 							</div>
 						</div>
 						<div class="col-md-3 p-0">
 							<div class="container_test">
+
 							<figure class="mg-room "><img class="img-fluid img-explora"  src="assets/images/02-empresariales-min.png" alt="img-bigFamily" />
 									<figcaption style="margin-top:0px"> 
 										<h2 style="display: none;">GOLF</h2>
@@ -211,10 +229,12 @@
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-xperiencia-landing-1.php">Descubre</a>
+
 									</figcaption>
 								</figure>
 							</div>
 						</div>
+
 					</div>
 				</div>
 				<div id="section-explora"></div>
@@ -233,9 +253,11 @@
 
 					<div class="col-md-6 p-0">
 						<div class="container_test">
+
 									<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/cosasporhacer-min.png" alt="img-bigFamily" />
 									<figcaption style="margin-top:0px"> 
 										<h2 style="display: none;">CasaMolle2</h2>
+
 										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 										</div>
 
@@ -251,14 +273,18 @@
 
 						<div class="col-md-6 p-0">
 							<div class="container_test">
+
 							<figure class="mg-room "><img class="img-fluid img-explora" style="height: 350px;" src="assets/images/ubicación-min.png" alt="img-bigFamily" />
 									<figcaption style="margin-top:0px"> 
 										<h2 style="display: none;">CasaMolle</h2>
+
 										<div class="mg-room-rating" style="display: none;"><i class="fa fa-star"> </i>
 										</div>
 
 										<div class="overlay">
+
 											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">UBICACIÓN</h2>
+
 											<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px;" href="experiencia-landing-1.php">Descubre</a>

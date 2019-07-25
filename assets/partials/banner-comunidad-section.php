@@ -1,3 +1,4 @@
+
 <section class="mg-book-now" style="padding: 20px 0px 15px 0px;">
 	<div class="container">
 		<div class="row">
@@ -7,6 +8,7 @@
 			</div>
 			<div class="col-md-4">
 				<a href="https://casamolle.paxer.com/reservacion" target="_blank" class="btn btn-suscribe">Acompañanos</a>
+
 			</div>
 		</div>
 	</div>
