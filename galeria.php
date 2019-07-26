@@ -39,21 +39,43 @@
 							<div class="col-md-2 col-xs-5">
 								<div id="mySidenav" class="sidenav">
 									<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+									<div class="reservation">
+									<div class="btn-reservation">
+										<p><a href="https://casamolle.paxer.com/reservacion">Reservar <i class="far fa-1x fa-calendar-alt icono-calendar"></i></a> </p>
+										
+									</div>
+									</div>
 									<br>
-									<li style="list-style: none;"><a href="index.php">HOME</a>
-									</li>
-									<li style="list-style: none;"><a href="index.php#section-experiencias">EXPERIENCIAS</a>
-									</li>
-									<li style="list-style: none;"><a href="index.php#section-explora">EXPLORA</a>
-									</li>
-									<li style="list-style: none;"><a href="galeria.php">GALERIA</a>
-									</li>
-									<li style="list-style: none;"><a href="index.php#testimonial-nav">COMUNIDAD</a>
-									</li>
-									<li style="list-style: none;"><a href="contacto.php">CONTACTO</a>
-									</li>
-								</div>
+									<a href="index.php">
+										<div class="section-nav"><p>Inicio</p></div>
+									</a>
+									<a href="galeria.php">
+										<div class="section-nav"><p>Galeria</p></div>
+									</a>
+									<ul class= "title_section">
+										<li id="nav_display" class= "nav_display">
+												<a href="#section-experiencias" class="title-experienicias"><p>Experiencias</p></a>
 
+											<span onclick="displayMenu();">
+											<i id="arrowIcon" class="fas fa-chevron-down icon-arrow"></i>
+											</span>
+											<hr>
+											<ul id="subMenu" class= "sub_title_section display">
+												<li><a href="experiencia-landing-1.php">Parejas y Amigos</a></li>
+												<li><a href="experiencia-landing-1.php">Bienestar</a></li>
+												<li><a href="experiencia-landing-1.php">Celebraciones</a></li>
+												<li><a href="experiencia-landing-1.php">Corporativo</a></li>
+
+											</ul>
+										</li>
+									</ul>
+									<a href="index.php#testimonial-nav">
+										<div class="section-nav"><p>Comunidad</p></div>
+									</a>
+									<a href="contacto.php">
+										<div class="section-nav"><p>Contacto</p></div>
+									</a>
+								</div>
 								<div class="menu-transparente" id="iconmenu">
 									<button onclick="openNav()" type="button" id="btn-style" class="btn btn-warning btn-sm">
 										<i class="fas fa-1x fa-bars"></i> Menu
@@ -76,7 +98,7 @@
 						<script>
 							/* Set the width of the side navigation to 250px */
 							function openNav() {
-								document.getElementById("mySidenav").style.width = "300px";
+								document.getElementById("mySidenav").style.width = "250px";
 							}
 
 							/* Set the width of the side navigation to 0 */
@@ -327,7 +349,10 @@
 			</div>
 		</div>
 
-    <?php require 'assets/partials/footer.php'?>
+	<?php require 'assets/partials/footer.php'?>
+	
+		<script src="assets/js/nav-menu.js"></script>
+		
 		<!--
 		All JavaScripts Codes Loaded
 		Ex: jquery, bootstrap, etc.

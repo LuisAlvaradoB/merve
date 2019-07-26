@@ -3,28 +3,37 @@
 /*Fuente normal*/
 @font-face
 {
-  font-family: AvantGardeBookBT;
-    src:url(fonts/AvantGardeBookBT.woff);
+  font-family: "AvantGardeBookBT";
+    src:url(fonts/AvantGardeBookBT.woff),
+    url(fonts/AvantGardeBookBT.otf),
+    url(fonts/AvantGardeBookBT.ttf),
+    url(fonts/AvantGardeBookBT.eot);
 }
 
 /*Fuente negrita*/
 @font-face
 {
-  font-family: AvantGardeDemiBT;
-    src:url(fonts/AvantGardeDemiBT.woff);
+  font-family: "AvantGardeDemiBT";
+    src:url(fonts/AvantGardeDemiBT.woff),
+    url(fonts/AvantGardeDemiBT.otf),
+    url(fonts/AvantGardeDemiBT.ttf),
+    url(fonts/AvantGardeDemiBT.eot);
 }
 
 /*Fuente italica*/
 @font-face
 {
-  font-family: AVGARDNI;
-    src:url(fonts/AVGARDNI.woff);
+  font-family: "AVGARDNI";
+    src:url(fonts/AVGARDNI.woff),
+    url(fonts/AVGARDNI.otf),
+    url(fonts/AVGARDNI.ttf),
+    url(fonts/AVGARDNI.eot);
 }
 
 
 .estilobanner
 {
-  font-family:  AvantGardeDemiBT
+  font-family:  "AvantGardeDemiBT"
 }
 
 .container_test {
@@ -167,7 +176,7 @@
 
  /* Add a black background color to the top navigation */
  .topnav {
-  background-color: #e7b315;
+  background-color: #86786b;
   overflow: hidden;
 }
 
@@ -258,7 +267,7 @@
 
 .menu-transparente button
 {
-  font-family: AvantGardeDemiBT;
+  font-family: "AvantGardeDemiBT";
 }
 
 #imglogo{
@@ -292,7 +301,7 @@
 
 /* The navigation menu links */
 .sidenav a {
-  font-family: AvantGardeDemiBT;
+  font-family: "AvantGardeDemiBT";
   /*padding: 8px 8px 8px 32px;*/
   text-decoration: none;
   font-size: 20px;
@@ -320,17 +329,6 @@
   right: 0px;
   font-size: 36px;
   background-color: #7b6e5e;
-}
-
-.logo-nav
-{
-  background-color: #7b6e5e;
-}
-
-.logo-nav img
-{
-  margin-right: 10%;
-  width: 200px;
 }
 
 .section-nav
@@ -365,6 +363,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 .btn-reservation
@@ -409,7 +408,7 @@
 
 .icon-arrow:hover
 {
-   color: #e7b315;
+   color: #7b6e5e;
 }
 
 .title-experienicias
@@ -430,7 +429,7 @@
 } 
 .txt-desc-testimonios {
   font-style: italic;
-  font-family: AVGARDNI;
+  font-family: "AVGARDNI";
   color: white;
 }
 
@@ -803,7 +802,7 @@ img {
 }
 
 .btn {
-  font-family: AvantGardeDemiBT;
+  font-family: "AvantGardeDemiBT";
   font-size: 14px;
   border-radius: .5em;
   font-weight: 600;
@@ -991,7 +990,7 @@ img {
   color: #fff;
 }
 
-a .btn-warning:active
+.btn-warning:active
 {
   border-color: #877b6c;
 }
@@ -2556,7 +2555,7 @@ ul.styled-list.list-star li:before {
 }
 
 .mg-book-now div .row h3{
-  font-family:  AvantGardeBookBT;
+  font-family:  "AvantGardeBookBT";
 }
 
 .mg-book-now {
@@ -2567,7 +2566,7 @@ ul.styled-list.list-star li:before {
 }
 
 .mg-book-now .mg-bn-title {
-  font-family:  AvantGardeBookBT;
+  font-family:  "AvantGardeBookBT";
   color: #e7b315;
   font-size: 30px;
   line-height: 43px;
@@ -2955,7 +2954,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 
 .col-md-12 h2
 {
-  font-family: AvantGardeDemiBT;
+  font-family: "AvantGardeDemiBT";
 }
 
 .mg-c2a strong {
@@ -3016,7 +3015,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 }
 
 .mg-best-rooms {
-  padding: 70px 0 20px;
+  padding: 15px 0 20px;
   background-color: #fff;
 }
 
@@ -3028,7 +3027,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 
 .mg-sec-title h2 {
   color: #16262e;
-  font-family: AvantGardeBookBT;
+  font-family: "AvantGardeBookBT";
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 400;
@@ -3061,7 +3060,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 
 .mg-sec-left-title,
 .mg-widget-title {
-  font-family: AvantGardeBookBT;
+  font-family: "AvantGardeBookBT";
   color: #16262e;
   font-size: 25px;
   text-transform: uppercase;
@@ -3484,7 +3483,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 
 .mg-light-testimonial .mg-testimonial-slider blockquote footer {
   color: #e7b315;
-  font-family: AvantGardeDemiBT;
+  font-family: "AvantGardeDemiBT";
   font-style: italic;
 }
 
@@ -3505,7 +3504,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 
 .mg-testimonial-slider blockquote footer {
   color: #e7b315;
-  font-family: AvantGardeDemiBT;
+  font-family: "AvantGardeDemiBT";
   font-style: italic;
 }
 

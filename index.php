@@ -44,11 +44,6 @@
 						<div class="col-md-2 col-xs-5">
 							<div id="mySidenav" class="sidenav">
 								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-								<div class="logo-nav">
-									<img src="assets/images/Logo_Casa_molle1.png" alt="400">
-								</div>
-
-								<br>
 								<div class="reservation">
 								<div class="btn-reservation">
 									<p><a href="https://casamolle.paxer.com/reservacion">Reservar <i class="far fa-1x fa-calendar-alt icono-calendar"></i></a> </p>
@@ -71,9 +66,9 @@
 										</span>
 										<hr>
 										<ul id="subMenu" class= "sub_title_section display">
-											<li><a href="experiencia-landing-1.php">Familia</a></li>
+											<li><a href="experiencia-landing-1.php">Parejas y Amigos</a></li>
 											<li><a href="experiencia-landing-1.php">Bienestar</a></li>
-											<li><a href="experiencia-landing-1.php">Eventos</a></li>
+											<li><a href="experiencia-landing-1.php">Celebraciones</a></li>
 											<li><a href="experiencia-landing-1.php">Corporativo</a></li>
 
 										</ul>
@@ -88,7 +83,7 @@
 							</div>
 
 							<div class="menu-transparente" id="iconmenu">
-								<button onclick="openNav()" type="button" id="btn-style" class="btn btn-warning btn-sm">
+								<button onclick="openNav()" type="button" id="btn-style" class="btn btn-warning">
 									<i class="fas fa-1x fa-bars"></i> Menu
 								</button>
 							</div>
@@ -105,19 +100,6 @@
 										Reservations <i class="far fa-1x fa-calendar-alt"></i>
 									</button>
 								</a>
-							</div>
-							<!--Lenguajes de la pagina-->
-							<div class = "header">
-
-								<ul class = "nav">
-									<li><a href="#">LENG</a>
-										<ul>
-											<li><a href="#">ESP</a></li>
-											<li><a href="#">EN</a></li>
-											<li><a href="#">POR</a></li>
-										</ul>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
@@ -150,11 +132,6 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 main-experiencias-personalizadas">
-					<div class="mg-sec-title undefined">
-
-						<h2 id="title-explora-exp" style="padding-top: 0px;margin-top: -65px;margin-bottom: 24px;">WE PROMISE GREAT MEMORIES <img src="assets/images/Estrella.png" width="60" alt=""> </h2> 
-
-					</div>
 					<div class="row" style="margin-top: -15px;">
 						<div class="col-md-3 p-0">
 							<div class="container_test">
@@ -166,7 +143,7 @@
 											</div>
 
 											<div class="overlay">
-												<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">FAMILIA</h2>
+												<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">PAREJAS Y AMIGOS</h2>
 												<div class="mg-room-rating" style="margin-right: 20px; display: none;"><i class="fa fa-star"> </i>
 											</div>
 											<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
@@ -206,7 +183,7 @@
 
 										<div class="overlay">
 
-											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">EVENTOS</h2>
+											<h2 style="margin-top: 25px; margin-left: 20px; margin-right: 20px; font-family: AvantGardeBookBT;">CELEBRACIONES</h2>
 											<div class="mg-room-rating" style="margin-right: 20px ;   display: none;"><i class="fa fa-star"> </i>
 										</div>
 										<a class="btn btn-main" style="margin: 30px; position:absolute; right:27%; bottom:10%;" href="experiencia-landing-1.php">Descubre</a>
